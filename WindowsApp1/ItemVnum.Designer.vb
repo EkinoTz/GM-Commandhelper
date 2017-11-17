@@ -23,7 +23,6 @@ Partial Class ItemVnums
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.MephTheme1 = New WindowsApp1.MephTheme()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
@@ -35,8 +34,10 @@ Partial Class ItemVnums
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox999 = New System.Windows.Forms.PictureBox()
+        Me.MephButton1 = New WindowsApp1.MephButton()
         Me.MephTheme1.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -57,6 +58,7 @@ Partial Class ItemVnums
         '
         Me.MephTheme1.AccentColor = System.Drawing.Color.DarkRed
         Me.MephTheme1.BackColor = System.Drawing.Color.FromArgb(CType(CType(28, Byte), Integer), CType(CType(28, Byte), Integer), CType(CType(28, Byte), Integer))
+        Me.MephTheme1.Controls.Add(Me.MephButton1)
         Me.MephTheme1.Controls.Add(Me.PictureBox8)
         Me.MephTheme1.Controls.Add(Me.PictureBox9)
         Me.MephTheme1.Controls.Add(Me.PictureBox10)
@@ -78,18 +80,6 @@ Partial Class ItemVnums
         Me.MephTheme1.SubHeader = "Insert Sub Header"
         Me.MephTheme1.TabIndex = 0
         Me.MephTheme1.Text = "MephTheme1"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Consolas", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Silver
-        Me.Label1.Location = New System.Drawing.Point(12, 65)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 13)
-        Me.Label1.TabIndex = 43
-        Me.Label1.Text = "V1.0.6"
         '
         'PictureBox8
         '
@@ -190,6 +180,18 @@ Partial Class ItemVnums
         Me.PictureBox2.TabIndex = 44
         Me.PictureBox2.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Consolas", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Silver
+        Me.Label1.Location = New System.Drawing.Point(12, 65)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(43, 13)
+        Me.Label1.TabIndex = 43
+        Me.Label1.Text = "V1.0.6"
+        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.WindowsApp1.My.Resources.Resources.ID_1
@@ -211,6 +213,17 @@ Partial Class ItemVnums
         Me.PictureBox999.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox999.TabIndex = 40
         Me.PictureBox999.TabStop = False
+        '
+        'MephButton1
+        '
+        Me.MephButton1.BackColor = System.Drawing.Color.Transparent
+        Me.MephButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.MephButton1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.MephButton1.Location = New System.Drawing.Point(15, 527)
+        Me.MephButton1.Name = "MephButton1"
+        Me.MephButton1.Size = New System.Drawing.Size(700, 23)
+        Me.MephButton1.TabIndex = 55
+        Me.MephButton1.Text = "Close"
         '
         'ItemVnums
         '
@@ -256,4 +269,5 @@ Partial Class ItemVnums
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents MephButton1 As MephButton
 End Class

@@ -6,4 +6,8 @@
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
 
     End Sub
+
+    Private Sub MephButton1_Click(sender As Object, e As EventArgs) Handles MephButton1.Click
+        Close()
+    End Sub
 End Class
