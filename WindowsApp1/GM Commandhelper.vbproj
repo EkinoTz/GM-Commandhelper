@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FBC8A69-471D-447C-B74D-292C45D7F220}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApp1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApp1</RootNamespace>
+    <AssemblyName>WindowsApp1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>V3PSkdh.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMonster.Designer.vb">
+      <DependentUpon>AddMonster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddMonster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPartner.Designer.vb">
+      <DependentUpon>AddPartner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddPartner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPet.Designer.vb">
+      <DependentUpon>AddPet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddPet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPortal.Designer.vb">
+      <DependentUpon>AddPortal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddPortal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddShellEffect.Designer.vb">
+      <DependentUpon>AddShellEffect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddShellEffect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSkill.Designer.vb">
+      <DependentUpon>AddSkill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddSkill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArenaWinner.Designer.vb">
+      <DependentUpon>ArenaWinner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ArenaWinner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackPack.Designer.vb">
+      <DependentUpon>BackPack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BackPack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ban.Designer.vb">
+      <DependentUpon>Ban.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ban.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bank.Designer.vb">
+      <DependentUpon>Bank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankBalance.Designer.vb">
+      <DependentUpon>BankBalance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BankBalance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankDeposit.Designer.vb">
+      <DependentUpon>BankDeposit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BankDeposit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankHelp.Designer.vb">
+      <DependentUpon>BankHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BankHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankSend.Designer.vb">
+      <DependentUpon>BankSend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BankSend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankWithdraw.Designer.vb">
+      <DependentUpon>BankWithdraw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BankWithdraw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlockExp.Designer.vb">
+      <DependentUpon>BlockExp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BlockExp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlockFExp.Designer.vb">
+      <DependentUpon>BlockFExp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BlockFExp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlockPM.Designer.vb">
+      <DependentUpon>BlockPM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BlockPM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlockRep.Designer.vb">
+      <DependentUpon>BlockRep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BlockRep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buff.Designer.vb">
+      <DependentUpon>Buff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Buff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeClass.Designer.vb">
+      <DependentUpon>ChangeClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeDignity.Designer.vb">
+      <DependentUpon>ChangeDignity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeDignity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Changelog.Designer.vb">
+      <DependentUpon>Changelog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Changelog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeRep.Designer.vb">
+      <DependentUpon>ChangeRep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeRep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeSex.Designer.vb">
+      <DependentUpon>ChangeSex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeSex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChannelInfo.Designer.vb">
+      <DependentUpon>ChannelInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharEdit.Designer.vb">
+      <DependentUpon>CharEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CharEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharStat.Designer.vb">
+      <DependentUpon>CharStat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CharStat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes.Designer.vb">
+      <DependentUpon>Classes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Classes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clear.Designer.vb">
+      <DependentUpon>Clear.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clear.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clone.Designer.vb">
+      <DependentUpon>Clone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateItem.Designer.vb">
+      <DependentUpon>CreateItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demote.Designer.vb">
+      <DependentUpon>Demote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Demote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DignityIcons.Designer.vb">
+      <DependentUpon>DignityIcons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DignityIcons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DropRate.Designer.vb">
+      <DependentUpon>DropRate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DropRate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Effect.Designer.vb">
+      <DependentUpon>Effect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Effect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Faction.Designer.vb">
+      <DependentUpon>Faction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Faction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FairyXpRate.Designer.vb">
+      <DependentUpon>FairyXpRate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FairyXpRate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FLvl.Designer.vb">
+      <DependentUpon>FLvl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FLvl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gift.Designer.vb">
+      <DependentUpon>Gift.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gift.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalEventEvent.Designer.vb">
+      <DependentUpon>GlobalEventEvent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalEventEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GMCommands.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GMCommands.Designer.vb">
+      <DependentUpon>GMCommands.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GodMode.Designer.vb">
+      <DependentUpon>GodMode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GodMode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold.Designer.vb">
+      <DependentUpon>Gold.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoldDropRate.Designer.vb">
+      <DependentUpon>GoldDropRate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GoldDropRate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoldRate.Designer.vb">
+      <DependentUpon>GoldRate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GoldRate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guri.Designer.vb">
+      <DependentUpon>Guri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HairColor.Designer.vb">
+      <DependentUpon>HairColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HairColor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HairStyle.Designer.vb">
+      <DependentUpon>HairStyle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HairStyle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpMe.Designer.vb">
+      <DependentUpon>HelpMe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HelpMe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeroLvl.Designer.vb">
+      <DependentUpon>HeroLvl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HeroLvl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeroXpRate.Designer.vb">
+      <DependentUpon>HeroXpRate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HeroXpRate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstanceMusic.Designer.vb">
+      <DependentUpon>InstanceMusic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InstanceMusic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invisible.Designer.vb">
+      <DependentUpon>Invisible.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Invisible.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemRain.Designer.vb">
+      <DependentUpon>ItemRain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemRain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemVnum.Designer.vb">
+      <DependentUpon>ItemVnum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemVnum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JLvl.Designer.vb">
+      <DependentUpon>JLvl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JLvl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kick.Designer.vb">
+      <DependentUpon>Kick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KickSession.Designer.vb">
+      <DependentUpon>KickSession.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KickSession.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kill.Designer.vb">
+      <DependentUpon>Kill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lvl.Designer.vb">
+      <DependentUpon>Lvl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lvl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance.Designer.vb">
+      <DependentUpon>Maintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapDance.Designer.vb">
+      <DependentUpon>MapDance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MapDance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapID.Designer.vb">
+      <DependentUpon>MapID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MapID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapPVP.Designer.vb">
+      <DependentUpon>MapPVP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MapPVP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonsterVnum.Designer.vb">
+      <DependentUpon>MonsterVnum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MonsterVnum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Morph.Designer.vb">
+      <DependentUpon>Morph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Morph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mute.Designer.vb">
+      <DependentUpon>Mute.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mute.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Packet.Designer.vb">
+      <DependentUpon>Packet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Packet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PenaltyLog.Designer.vb">
+      <DependentUpon>PenaltyLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PenaltyLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PortalTo.Designer.vb">
+      <DependentUpon>PortalTo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PortalTo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Portaltypes.Designer.vb">
+      <DependentUpon>Portaltypes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Portaltypes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Position.Designer.vb">
+      <DependentUpon>Position.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Position.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Promote.Designer.vb">
+      <DependentUpon>Promote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Promote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rarify.Designer.vb">
+      <DependentUpon>Rarify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rarify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveNpcMonster.Designer.vb">
+      <DependentUpon>RemoveNpcMonster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveNpcMonster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemovePortal.Designer.vb">
+      <DependentUpon>RemovePortal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RemovePortal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReputationIcon.Designer.vb">
+      <DependentUpon>ReputationIcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReputationIcon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resze.Designer.vb">
+      <DependentUpon>Resze.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resze.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchItem.Designer.vb">
+      <DependentUpon>SearchItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchMonster.Designer.vb">
+      <DependentUpon>SearchMonster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchMonster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetPerfection.Designer.vb">
+      <DependentUpon>SetPerfection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SetPerfection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shout.Designer.vb">
+      <DependentUpon>Shout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShoutHere.Designer.vb">
+      <DependentUpon>ShoutHere.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShoutHere.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shutdown.Designer.vb">
+      <DependentUpon>Shutdown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shutdown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShutdownAll.Designer.vb">
+      <DependentUpon>ShutdownAll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShutdownAll.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkillVnum.Designer.vb">
+      <DependentUpon>SkillVnum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SkillVnum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sort.Designer.vb">
+      <DependentUpon>Sort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Speed.Designer.vb">
+      <DependentUpon>Speed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Speed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPLvl.Designer.vb">
+      <DependentUpon>SPLvl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPLvl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPRefill.Designer.vb">
+      <DependentUpon>SPRefill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPRefill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stat.Designer.vb">
+      <DependentUpon>Stat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sudo.Designer.vb">
+      <DependentUpon>Sudo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sudo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Summon.Designer.vb">
+      <DependentUpon>Summon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Summon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SummonNPC.Designer.vb">
+      <DependentUpon>SummonNPC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SummonNPC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teleport.Designer.vb">
+      <DependentUpon>Teleport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Teleport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeleportToMe.Designer.vb">
+      <DependentUpon>TeleportToMe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TeleportToMe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TObject.vb" />
+    <Compile Include="Unban.Designer.vb">
+      <DependentUpon>Unban.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unban.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Undercover.Designer.vb">
+      <DependentUpon>Undercover.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Undercover.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unmute.Designer.vb">
+      <DependentUpon>Unmute.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unmute.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unstuck.Designer.vb">
+      <DependentUpon>Unstuck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unstuck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upgrade.Designer.vb">
+      <DependentUpon>Upgrade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Upgrade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warn.Designer.vb">
+      <DependentUpon>Warn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Warn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WigColor.Designer.vb">
+      <DependentUpon>WigColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WigColor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XpRate.Designer.vb">
+      <DependentUpon>XpRate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XpRate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zoom.Designer.vb">
+      <DependentUpon>Zoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Zoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddMonster.resx">
+      <DependentUpon>AddMonster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPartner.resx">
+      <DependentUpon>AddPartner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPet.resx">
+      <DependentUpon>AddPet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPortal.resx">
+      <DependentUpon>AddPortal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddShellEffect.resx">
+      <DependentUpon>AddShellEffect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSkill.resx">
+      <DependentUpon>AddSkill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArenaWinner.resx">
+      <DependentUpon>ArenaWinner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackPack.resx">
+      <DependentUpon>BackPack.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ban.resx">
+      <DependentUpon>Ban.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bank.resx">
+      <DependentUpon>Bank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankBalance.resx">
+      <DependentUpon>BankBalance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankDeposit.resx">
+      <DependentUpon>BankDeposit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankHelp.resx">
+      <DependentUpon>BankHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankSend.resx">
+      <DependentUpon>BankSend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankWithdraw.resx">
+      <DependentUpon>BankWithdraw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlockExp.resx">
+      <DependentUpon>BlockExp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlockFExp.resx">
+      <DependentUpon>BlockFExp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlockPM.resx">
+      <DependentUpon>BlockPM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlockRep.resx">
+      <DependentUpon>BlockRep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buff.resx">
+      <DependentUpon>Buff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeClass.resx">
+      <DependentUpon>ChangeClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeDignity.resx">
+      <DependentUpon>ChangeDignity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Changelog.resx">
+      <DependentUpon>Changelog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeRep.resx">
+      <DependentUpon>ChangeRep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeSex.resx">
+      <DependentUpon>ChangeSex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChannelInfo.resx">
+      <DependentUpon>ChannelInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes.resx">
+      <DependentUpon>Classes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DignityIcons.resx">
+      <DependentUpon>DignityIcons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GMCommands.resx">
+      <DependentUpon>GMCommands.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemVnum.resx">
+      <DependentUpon>ItemVnum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Portaltypes.resx">
+      <DependentUpon>Portaltypes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReputationIcon.resx">
+      <DependentUpon>ReputationIcon.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\Changelog.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loki.%28FAIRY.TAIL%29.full.833717.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\971ccffd79b0fce57413eeabc777344e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PortalType20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BankHelpCommand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BankBalance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BankDeposite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BankWithdraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BankSend.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArenaWinnerOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArenaWinnerOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LauncherIcon.ico" />
+    <Content Include="Loki_FAIRY_TAIL_full_833717.ico" />
+    <None Include="Resources\fc756b27f7601142b1a494ad99a97dd3.jpg" />
+    <None Include="Resources\ID 1.png" />
+    <Content Include="V3PSkdh.ico" />
+    <None Include="Resources\699c22fa9a2f41fb9129edcf5eac0923.png" />
+    <None Include="Resources\Rep30.png" />
+    <None Include="Resources\Rep29.png" />
+    <None Include="Resources\Rep28.png" />
+    <None Include="Resources\Rep27.png" />
+    <None Include="Resources\Rep26.png" />
+    <None Include="Resources\Rep25.png" />
+    <None Include="Resources\Rep24.png" />
+    <None Include="Resources\Rep23.png" />
+    <None Include="Resources\Rep22.png" />
+    <None Include="Resources\Rep21.png" />
+    <None Include="Resources\Rep20.png" />
+    <None Include="Resources\Rep19.png" />
+    <None Include="Resources\Rep18.png" />
+    <None Include="Resources\Rep17.png" />
+    <None Include="Resources\Rep16.png" />
+    <None Include="Resources\Rep15.png" />
+    <None Include="Resources\Rep14.png" />
+    <None Include="Resources\Rep13.png" />
+    <None Include="Resources\Rep12.png" />
+    <None Include="Resources\Rep11.png" />
+    <None Include="Resources\Rep10.png" />
+    <None Include="Resources\Rep9.png" />
+    <None Include="Resources\Rep8.png" />
+    <None Include="Resources\Rep7.png" />
+    <None Include="Resources\Rep6.png" />
+    <None Include="Resources\Rep5.png" />
+    <None Include="Resources\Rep4.png" />
+    <None Include="Resources\Rep3.png" />
+    <None Include="Resources\Rep2.png" />
+    <None Include="Resources\Rep1.png" />
+    <None Include="Resources\1000bis800.png" />
+    <None Include="Resources\799bis600.png" />
+    <None Include="Resources\599bis400.png" />
+    <None Include="Resources\399bis200.png" />
+    <None Include="Resources\199bis100.png" />
+    <None Include="Resources\Portaltype-1.png" />
+    <None Include="Resources\Class3.png" />
+    <None Include="Resources\Class2.png" />
+    <None Include="Resources\Class1.png" />
+    <None Include="Resources\Class0.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
