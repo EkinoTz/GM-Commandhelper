@@ -325,6 +325,12 @@
     <Compile Include="CommandVB\GlobalEventEvent.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CommandVB\Resze.designer.vb">
+      <DependentUpon>Resze.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CommandVB\Resze.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GMCommands.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -561,12 +567,6 @@
       <DependentUpon>ReputationIcon.vb</DependentUpon>
     </Compile>
     <Compile Include="Icons\ReputationIcon.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CommandVB\Resze.Designer.vb">
-      <DependentUpon>Resze.vb</DependentUpon>
-    </Compile>
-    <Compile Include="CommandVB\Resze.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CommandVB\SearchItem.Designer.vb">
