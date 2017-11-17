@@ -9205,64 +9205,64 @@ Public Class GMCommands
                 MephTextBox3.Text = "PROPERTYNAME DATA"
 
             Case "CharStat"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "Clear"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "INVENTORYTYPE"
 
             Case "Clone"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "SLOT DESTINATIONSLOT"
 
             Case "CreateItem"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "ITEMVNUM DESIGN/RARE/AMOUNT/WINGS UPDATE"
 
             Case "Demote"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "DignityIcons"
                 MephTextBox3.Text = ""
 
             Case "DropRate"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "Effect"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "EFFECTID"
 
             Case "Faction"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "1/2"
 
             Case "FairyXpRate"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "FLvl"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "Gift"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "CHARACTER(*) VNUM AMOUNT RARE UPGRADE"
 
             Case "GlobalEventEvent"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "EVENTTYPE"
 
             Case "GodMode"
                 MephTextBox3.Text = ""
 
             Case "Gold"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "GoldDropRate"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "GoldRate"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "Guri"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "TYPE ARGUMENT VALUE"
 
             Case "HairColor"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "COLORID"
 
             Case "HairStyle"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "STYLEID"
 
             Case "Help"
                 MephTextBox3.Text = ""
@@ -9271,37 +9271,37 @@ Public Class GMCommands
                 MephTextBox3.Text = ""
 
             Case "HeroLvl"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "HeroXpRate"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "InstanceMusic"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "BGMID"
 
             Case "Invisible"
                 MephTextBox3.Text = ""
 
             Case "ItemRain"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "ITEMVNUM AMOUNT COUNT TIME"
 
             Case "JLvl"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "Kick"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "CHARACTERNAME(*)"
 
             Case "KickSession"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "SESSIONID (Login ID)"
 
             Case "Kill"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "Lvl"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "Maintenance"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "DELAY(MIN) DURATION(MIN) REASON"
 
             Case "MapDance"
                 MephTextBox3.Text = ""
@@ -9310,28 +9310,28 @@ Public Class GMCommands
                 MephTextBox3.Text = ""
 
             Case "Morph"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "MORPHID UPGRADE WINGS ARENA"
 
             Case "Mute"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME DURATION(MINUTES) REASON"
 
             Case "Packet"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "PACKET"
 
             Case "PenaltyLog"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "PortalTo"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "MAPID DESTX DESTY PORTALTYPE(?)"
 
             Case "Position"
                 MephTextBox3.Text = ""
 
             Case "Promote"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "Rarify"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "SLOT MODE PROTECTION"
 
             Case "RemoveNpcMonster"
                 MephTextBox3.Text = ""
@@ -9340,22 +9340,22 @@ Public Class GMCommands
                 MephTextBox3.Text = ""
 
             Case "Resize"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "SearchItem"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "SearchMonster"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "SetPerfection"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "SLOT TYPE VALUE"
 
             Case "Shout"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "MESSAGE"
 
             Case "ShoutHere"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "MESSAGE"
 
             Case "Shutdown"
                 MephTextBox3.Text = ""
@@ -9364,13 +9364,13 @@ Public Class GMCommands
                 MephTextBox3.Text = ""
 
             Case "Sort"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "Main Etc Equipment"
 
             Case "Speed"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "SPLvl"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "SPRefill"
                 MephTextBox3.Text = ""
@@ -9379,46 +9379,46 @@ Public Class GMCommands
                 MephTextBox3.Text = ""
 
             Case "Sudo"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "Summon"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "MONSTERID AMOUNT MOVE"
 
             Case "SummonNPC"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "MONSTERID AMOUNT MOVE"
 
             Case "Teleport"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "CHARACTERNAME/MAP X(?) Y(?)"
 
             Case "TeleportToMe"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "Unban"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "Undercover"
                 MephTextBox3.Text = ""
 
             Case "Unmute"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME"
 
             Case "Unstuck"
                 MephTextBox3.Text = ""
 
             Case "Upgrade"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "SLOT MODE PROTECTION"
 
             Case "Warn"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "NAME REASON"
 
             Case "WigColor"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "COLORID"
 
             Case "XpRate"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
             Case "Zoom"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "VALUE"
 
 
         End Select
