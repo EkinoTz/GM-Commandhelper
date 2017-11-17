@@ -919,6 +919,7 @@
   <ItemGroup>
     <Content Include="Icons\LauncherIcon.ico" />
     <Content Include="Icons\Loki_FAIRY_TAIL_full_833717.ico" />
+    <None Include="Resources\GOLD.png" />
     <None Include="Resources\fc756b27f7601142b1a494ad99a97dd3.jpg" />
     <None Include="Resources\ID 1.png" />
     <None Include="Resources\ID 2.png" />
