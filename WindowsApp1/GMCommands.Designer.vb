@@ -397,7 +397,7 @@ Partial Class GMCommands
         Me.MephTextBox2.Name = "MephTextBox2"
         Me.MephTextBox2.Size = New System.Drawing.Size(148, 129)
         Me.MephTextBox2.TabIndex = 4
-        Me.MephTextBox2.Text = "Made by Loki"
+        Me.MephTextBox2.Text = "Made by Loki and Hunter"
         Me.MephTextBox2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center
         Me.MephTextBox2.UseSystemPasswordChar = False
         Me.MephTextBox2.WordWrap = True
