@@ -9145,7 +9145,7 @@ Public Class GMCommands
                 MephTextBox3.Text = "SKILLVNUM"
 
             Case "ArenaWinner"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "0/1"
 
             Case "Backpack"
                 MephTextBox3.Text = ""
