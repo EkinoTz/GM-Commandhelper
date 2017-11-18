@@ -24,6 +24,7 @@ Partial Class GMCommands
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(GMCommands))
         Me.MephTheme1 = New WindowsApp1.MephTheme()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.MephButton100 = New WindowsApp1.MephButton()
         Me.MephButton99 = New WindowsApp1.MephButton()
         Me.MephButton98 = New WindowsApp1.MephButton()
@@ -139,6 +140,7 @@ Partial Class GMCommands
         Me.MephButton90 = New WindowsApp1.MephButton()
         Me.MephButton91 = New WindowsApp1.MephButton()
         Me.MephTheme1.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MephTabcontrol1.SuspendLayout()
@@ -153,6 +155,7 @@ Partial Class GMCommands
         '
         Me.MephTheme1.AccentColor = System.Drawing.Color.DarkRed
         Me.MephTheme1.BackColor = System.Drawing.Color.Black
+        Me.MephTheme1.Controls.Add(Me.PictureBox3)
         Me.MephTheme1.Controls.Add(Me.MephButton100)
         Me.MephTheme1.Controls.Add(Me.MephButton99)
         Me.MephTheme1.Controls.Add(Me.MephButton98)
@@ -182,6 +185,19 @@ Partial Class GMCommands
         Me.MephTheme1.SubHeader = "Use these Commands in chat"
         Me.MephTheme1.TabIndex = 0
         Me.MephTheme1.Text = "GM Commands"
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox3.Image = Global.WindowsApp1.My.Resources.Resources._4d5fae7c4e25c90276bbddb5196cee1d
+        Me.PictureBox3.InitialImage = CType(resources.GetObject("PictureBox3.InitialImage"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(611, 111)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(72, 72)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox3.TabIndex = 53
+        Me.PictureBox3.TabStop = False
         '
         'MephButton100
         '
@@ -377,11 +393,11 @@ Partial Class GMCommands
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Image = Global.WindowsApp1.My.Resources.Resources.fc756b27f7601142b1a494ad99a97dd3
+        Me.PictureBox1.Image = Global.WindowsApp1.My.Resources.Resources._699c22fa9a2f41fb9129edcf5eac0923
         Me.PictureBox1.InitialImage = CType(resources.GetObject("PictureBox1.InitialImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(536, 89)
+        Me.PictureBox1.Location = New System.Drawing.Point(535, 111)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(145, 105)
+        Me.PictureBox1.Size = New System.Drawing.Size(72, 72)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
@@ -1581,6 +1597,7 @@ Partial Class GMCommands
         Me.TransparencyKey = System.Drawing.Color.Fuchsia
         Me.MephTheme1.ResumeLayout(False)
         Me.MephTheme1.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MephTabcontrol1.ResumeLayout(False)
@@ -1708,4 +1725,5 @@ Partial Class GMCommands
     Friend WithEvents MephButton98 As MephButton
     Friend WithEvents MephButton97 As MephButton
     Friend WithEvents MephButton100 As MephButton
+    Friend WithEvents PictureBox3 As PictureBox
 End Class

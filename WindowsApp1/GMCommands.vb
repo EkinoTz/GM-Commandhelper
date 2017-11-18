@@ -17,7 +17,11 @@ Public Class GMCommands
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         Process.Start("https://www.youtube.com/channel/UCTEtjXYy6uF-1MyhRePwSkQ?view_as=subscriber")
         Process.Start("https://go.twitch.tv/ekino_tz")
+    End Sub
 
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+
+        Process.Start("https://go.twitch.tv/hunternos")
     End Sub
 
     Private Sub MephButton1_Click(sender As Object, e As EventArgs) Handles MephButton1.Click
@@ -9425,6 +9429,7 @@ Public Class GMCommands
 
 
     End Sub
+
 
 #End Region
 
