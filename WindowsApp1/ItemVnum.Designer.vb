@@ -100,6 +100,18 @@ Partial Class ItemVnums
         Me.PictureBox70 = New System.Windows.Forms.PictureBox()
         Me.PictureBox71 = New System.Windows.Forms.PictureBox()
         Me.PictureBox72 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox73 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox74 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox75 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox76 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox77 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox78 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox79 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox80 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox81 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox82 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox83 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox84 = New System.Windows.Forms.PictureBox()
         Me.GoldPictureBox = New System.Windows.Forms.PictureBox()
         Me.ItemPictureBox = New System.Windows.Forms.PictureBox()
         Me.PictureBox999 = New System.Windows.Forms.PictureBox()
@@ -177,6 +189,18 @@ Partial Class ItemVnums
         CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox76, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox77, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox78, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox79, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox80, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox81, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox82, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox83, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox84, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GoldPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ItemPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox999, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -277,6 +301,18 @@ Partial Class ItemVnums
         Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox70)
         Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox71)
         Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox72)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox73)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox74)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox75)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox76)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox77)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox78)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox79)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox80)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox81)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox82)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox83)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox84)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(643, 91)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(478, 430)
@@ -978,6 +1014,114 @@ Partial Class ItemVnums
         Me.PictureBox72.TabIndex = 122
         Me.PictureBox72.TabStop = False
         '
+        'PictureBox73
+        '
+        Me.PictureBox73.Image = Global.WindowsApp1.My.Resources.Resources._73
+        Me.PictureBox73.Location = New System.Drawing.Point(3, 231)
+        Me.PictureBox73.Name = "PictureBox73"
+        Me.PictureBox73.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox73.TabIndex = 123
+        Me.PictureBox73.TabStop = False
+        '
+        'PictureBox74
+        '
+        Me.PictureBox74.Image = Global.WindowsApp1.My.Resources.Resources._74
+        Me.PictureBox74.Location = New System.Drawing.Point(41, 231)
+        Me.PictureBox74.Name = "PictureBox74"
+        Me.PictureBox74.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox74.TabIndex = 124
+        Me.PictureBox74.TabStop = False
+        '
+        'PictureBox75
+        '
+        Me.PictureBox75.Image = Global.WindowsApp1.My.Resources.Resources._75
+        Me.PictureBox75.Location = New System.Drawing.Point(79, 231)
+        Me.PictureBox75.Name = "PictureBox75"
+        Me.PictureBox75.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox75.TabIndex = 125
+        Me.PictureBox75.TabStop = False
+        '
+        'PictureBox76
+        '
+        Me.PictureBox76.Image = Global.WindowsApp1.My.Resources.Resources._76
+        Me.PictureBox76.Location = New System.Drawing.Point(117, 231)
+        Me.PictureBox76.Name = "PictureBox76"
+        Me.PictureBox76.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox76.TabIndex = 126
+        Me.PictureBox76.TabStop = False
+        '
+        'PictureBox77
+        '
+        Me.PictureBox77.Image = Global.WindowsApp1.My.Resources.Resources._77
+        Me.PictureBox77.Location = New System.Drawing.Point(155, 231)
+        Me.PictureBox77.Name = "PictureBox77"
+        Me.PictureBox77.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox77.TabIndex = 127
+        Me.PictureBox77.TabStop = False
+        '
+        'PictureBox78
+        '
+        Me.PictureBox78.Image = Global.WindowsApp1.My.Resources.Resources._78
+        Me.PictureBox78.Location = New System.Drawing.Point(193, 231)
+        Me.PictureBox78.Name = "PictureBox78"
+        Me.PictureBox78.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox78.TabIndex = 128
+        Me.PictureBox78.TabStop = False
+        '
+        'PictureBox79
+        '
+        Me.PictureBox79.Image = Global.WindowsApp1.My.Resources.Resources._79
+        Me.PictureBox79.Location = New System.Drawing.Point(231, 231)
+        Me.PictureBox79.Name = "PictureBox79"
+        Me.PictureBox79.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox79.TabIndex = 129
+        Me.PictureBox79.TabStop = False
+        '
+        'PictureBox80
+        '
+        Me.PictureBox80.Image = Global.WindowsApp1.My.Resources.Resources._80
+        Me.PictureBox80.Location = New System.Drawing.Point(269, 231)
+        Me.PictureBox80.Name = "PictureBox80"
+        Me.PictureBox80.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox80.TabIndex = 130
+        Me.PictureBox80.TabStop = False
+        '
+        'PictureBox81
+        '
+        Me.PictureBox81.Image = Global.WindowsApp1.My.Resources.Resources._81
+        Me.PictureBox81.Location = New System.Drawing.Point(307, 231)
+        Me.PictureBox81.Name = "PictureBox81"
+        Me.PictureBox81.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox81.TabIndex = 131
+        Me.PictureBox81.TabStop = False
+        '
+        'PictureBox82
+        '
+        Me.PictureBox82.Image = Global.WindowsApp1.My.Resources.Resources._82
+        Me.PictureBox82.Location = New System.Drawing.Point(345, 231)
+        Me.PictureBox82.Name = "PictureBox82"
+        Me.PictureBox82.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox82.TabIndex = 132
+        Me.PictureBox82.TabStop = False
+        '
+        'PictureBox83
+        '
+        Me.PictureBox83.Image = Global.WindowsApp1.My.Resources.Resources._83
+        Me.PictureBox83.Location = New System.Drawing.Point(383, 231)
+        Me.PictureBox83.Name = "PictureBox83"
+        Me.PictureBox83.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox83.TabIndex = 133
+        Me.PictureBox83.TabStop = False
+        '
+        'PictureBox84
+        '
+        Me.PictureBox84.Image = Global.WindowsApp1.My.Resources.Resources._84
+        Me.PictureBox84.Location = New System.Drawing.Point(421, 231)
+        Me.PictureBox84.Name = "PictureBox84"
+        Me.PictureBox84.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox84.TabIndex = 134
+        Me.PictureBox84.TabStop = False
+        '
         'GoldPictureBox
         '
         Me.GoldPictureBox.BackColor = System.Drawing.Color.Transparent
@@ -1096,6 +1240,18 @@ Partial Class ItemVnums
         CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox76, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox77, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox78, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox79, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox80, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox81, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox82, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox83, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox84, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GoldPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ItemPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox999, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1184,4 +1340,16 @@ Partial Class ItemVnums
     Friend WithEvents PictureBox70 As PictureBox
     Friend WithEvents PictureBox71 As PictureBox
     Friend WithEvents PictureBox72 As PictureBox
+    Friend WithEvents PictureBox73 As PictureBox
+    Friend WithEvents PictureBox74 As PictureBox
+    Friend WithEvents PictureBox75 As PictureBox
+    Friend WithEvents PictureBox76 As PictureBox
+    Friend WithEvents PictureBox77 As PictureBox
+    Friend WithEvents PictureBox78 As PictureBox
+    Friend WithEvents PictureBox79 As PictureBox
+    Friend WithEvents PictureBox80 As PictureBox
+    Friend WithEvents PictureBox81 As PictureBox
+    Friend WithEvents PictureBox82 As PictureBox
+    Friend WithEvents PictureBox83 As PictureBox
+    Friend WithEvents PictureBox84 As PictureBox
 End Class
