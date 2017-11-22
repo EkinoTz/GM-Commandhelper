@@ -76,172 +76,172 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommandVB\AddMonster.Designer.vb">
+    <Compile Include="CommandVB\Administrator\AddMonster.Designer.vb">
       <DependentUpon>AddMonster.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\AddMonster.vb">
+    <Compile Include="CommandVB\Administrator\AddMonster.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\AddPartner.Designer.vb">
+    <Compile Include="CommandVB\Administrator\AddPartner.Designer.vb">
       <DependentUpon>AddPartner.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\AddPartner.vb">
+    <Compile Include="CommandVB\Administrator\AddPartner.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\AddPet.Designer.vb">
+    <Compile Include="CommandVB\Administrator\AddPet.Designer.vb">
       <DependentUpon>AddPet.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\AddPet.vb">
+    <Compile Include="CommandVB\Administrator\AddPet.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\AddPortal.Designer.vb">
+    <Compile Include="CommandVB\Administrator\AddPortal.Designer.vb">
       <DependentUpon>AddPortal.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\AddPortal.vb">
+    <Compile Include="CommandVB\Administrator\AddPortal.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\AddShellEffect.Designer.vb">
+    <Compile Include="CommandVB\Administrator\AddShellEffect.Designer.vb">
       <DependentUpon>AddShellEffect.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\AddShellEffect.vb">
+    <Compile Include="CommandVB\Administrator\AddShellEffect.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\AddSkill.Designer.vb">
+    <Compile Include="CommandVB\Administrator\AddSkill.Designer.vb">
       <DependentUpon>AddSkill.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\AddSkill.vb">
+    <Compile Include="CommandVB\Administrator\AddSkill.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\ArenaWinner.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\ArenaWinner.Designer.vb">
       <DependentUpon>ArenaWinner.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\ArenaWinner.vb">
+    <Compile Include="CommandVB\GameMaster\ArenaWinner.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\BackPack.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\BackPack.Designer.vb">
       <DependentUpon>BackPack.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\BackPack.vb">
+    <Compile Include="CommandVB\GameMaster\BackPack.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Ban.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Ban.Designer.vb">
       <DependentUpon>Ban.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Ban.vb">
+    <Compile Include="CommandVB\GameMaster\Ban.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Bank.Designer.vb">
+    <Compile Include="CommandVB\Player\Bank.Designer.vb">
       <DependentUpon>Bank.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Bank.vb">
+    <Compile Include="CommandVB\Player\Bank.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\BankBalance.Designer.vb">
+    <Compile Include="CommandVB\Player\BankBalance.Designer.vb">
       <DependentUpon>BankBalance.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\BankBalance.vb">
+    <Compile Include="CommandVB\Player\BankBalance.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\BankDeposit.Designer.vb">
+    <Compile Include="CommandVB\Player\BankDeposit.Designer.vb">
       <DependentUpon>BankDeposit.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\BankDeposit.vb">
+    <Compile Include="CommandVB\Player\BankDeposit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\BankHelp.Designer.vb">
+    <Compile Include="CommandVB\Player\BankHelp.Designer.vb">
       <DependentUpon>BankHelp.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\BankHelp.vb">
+    <Compile Include="CommandVB\Player\BankHelp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\BankSend.Designer.vb">
+    <Compile Include="CommandVB\Player\BankSend.Designer.vb">
       <DependentUpon>BankSend.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\BankSend.vb">
+    <Compile Include="CommandVB\Player\BankSend.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\BankWithdraw.Designer.vb">
+    <Compile Include="CommandVB\Player\BankWithdraw.Designer.vb">
       <DependentUpon>BankWithdraw.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\BankWithdraw.vb">
+    <Compile Include="CommandVB\Player\BankWithdraw.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\BlockExp.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\BlockExp.Designer.vb">
       <DependentUpon>BlockExp.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\BlockExp.vb">
+    <Compile Include="CommandVB\GameMaster\BlockExp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\BlockFExp.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\BlockFExp.Designer.vb">
       <DependentUpon>BlockFExp.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\BlockFExp.vb">
+    <Compile Include="CommandVB\GameMaster\BlockFExp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\BlockPM.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\BlockPM.Designer.vb">
       <DependentUpon>BlockPM.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\BlockPM.vb">
+    <Compile Include="CommandVB\GameMaster\BlockPM.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\BlockRep.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\BlockRep.Designer.vb">
       <DependentUpon>BlockRep.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\BlockRep.vb">
+    <Compile Include="CommandVB\GameMaster\BlockRep.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Buff.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Buff.Designer.vb">
       <DependentUpon>Buff.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Buff.vb">
+    <Compile Include="CommandVB\GameMaster\Buff.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\ChangeClass.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\ChangeClass.Designer.vb">
       <DependentUpon>ChangeClass.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\ChangeClass.vb">
+    <Compile Include="CommandVB\GameMaster\ChangeClass.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\ChangeDignity.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\ChangeDignity.Designer.vb">
       <DependentUpon>ChangeDignity.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\ChangeDignity.vb">
+    <Compile Include="CommandVB\GameMaster\ChangeDignity.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Changelog.Designer.vb">
+    <Compile Include="CommandVB\Unused\Changelog.Designer.vb">
       <DependentUpon>Changelog.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Changelog.vb">
+    <Compile Include="CommandVB\Unused\Changelog.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\ChangeRep.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\ChangeRep.Designer.vb">
       <DependentUpon>ChangeRep.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\ChangeRep.vb">
+    <Compile Include="CommandVB\GameMaster\ChangeRep.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\ChangeSex.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\ChangeSex.Designer.vb">
       <DependentUpon>ChangeSex.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\ChangeSex.vb">
+    <Compile Include="CommandVB\GameMaster\ChangeSex.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\ChannelInfo.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\ChannelInfo.Designer.vb">
       <DependentUpon>ChannelInfo.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\ChannelInfo.vb">
+    <Compile Include="CommandVB\GameMaster\ChannelInfo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\CharEdit.Designer.vb">
+    <Compile Include="CommandVB\Administrator\CharEdit.Designer.vb">
       <DependentUpon>CharEdit.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\CharEdit.vb">
+    <Compile Include="CommandVB\Administrator\CharEdit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\CharStat.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\CharStat.Designer.vb">
       <DependentUpon>CharStat.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\CharStat.vb">
+    <Compile Include="CommandVB\GameMaster\CharStat.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Class1.vb">
@@ -253,82 +253,82 @@
     <Compile Include="Classes.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Clear.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Clear.Designer.vb">
       <DependentUpon>Clear.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Clear.vb">
+    <Compile Include="CommandVB\GameMaster\Clear.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Clone.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Clone.Designer.vb">
       <DependentUpon>Clone.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Clone.vb">
+    <Compile Include="CommandVB\GameMaster\Clone.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\CreateItem.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\CreateItem.Designer.vb">
       <DependentUpon>CreateItem.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\CreateItem.vb">
+    <Compile Include="CommandVB\GameMaster\CreateItem.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Demote.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Demote.Designer.vb">
       <DependentUpon>Demote.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Demote.vb">
+    <Compile Include="CommandVB\Administrator\Demote.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\DignityIcons.Designer.vb">
+    <Compile Include="CommandVB\Unused\DignityIcons.Designer.vb">
       <DependentUpon>DignityIcons.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\DignityIcons.vb">
+    <Compile Include="CommandVB\Unused\DignityIcons.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\DropRate.Designer.vb">
+    <Compile Include="CommandVB\Administrator\DropRate.Designer.vb">
       <DependentUpon>DropRate.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\DropRate.vb">
+    <Compile Include="CommandVB\Administrator\DropRate.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Effect.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Effect.Designer.vb">
       <DependentUpon>Effect.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Effect.vb">
+    <Compile Include="CommandVB\GameMaster\Effect.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Faction.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Faction.Designer.vb">
       <DependentUpon>Faction.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Faction.vb">
+    <Compile Include="CommandVB\GameMaster\Faction.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\FairyXpRate.Designer.vb">
+    <Compile Include="CommandVB\Administrator\FairyXpRate.Designer.vb">
       <DependentUpon>FairyXpRate.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\FairyXpRate.vb">
+    <Compile Include="CommandVB\Administrator\FairyXpRate.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\FLvl.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\FLvl.Designer.vb">
       <DependentUpon>FLvl.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\FLvl.vb">
+    <Compile Include="CommandVB\GameMaster\FLvl.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Gift.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Gift.Designer.vb">
       <DependentUpon>Gift.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Gift.vb">
+    <Compile Include="CommandVB\Administrator\Gift.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\GlobalEventEvent.Designer.vb">
+    <Compile Include="CommandVB\Administrator\GlobalEventEvent.Designer.vb">
       <DependentUpon>GlobalEventEvent.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\GlobalEventEvent.vb">
+    <Compile Include="CommandVB\Administrator\GlobalEventEvent.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Resze.designer.vb">
+    <Compile Include="CommandVB\GameMaster\Resze.designer.vb">
       <DependentUpon>Resze.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Resze.vb">
+    <Compile Include="CommandVB\GameMaster\Resze.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GMCommands.vb">
@@ -338,82 +338,82 @@
       <DependentUpon>GMCommands.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\GodMode.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\GodMode.Designer.vb">
       <DependentUpon>GodMode.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\GodMode.vb">
+    <Compile Include="CommandVB\GameMaster\GodMode.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Gold.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Gold.Designer.vb">
       <DependentUpon>Gold.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Gold.vb">
+    <Compile Include="CommandVB\GameMaster\Gold.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\GoldDropRate.Designer.vb">
+    <Compile Include="CommandVB\Administrator\GoldDropRate.Designer.vb">
       <DependentUpon>GoldDropRate.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\GoldDropRate.vb">
+    <Compile Include="CommandVB\Administrator\GoldDropRate.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\GoldRate.Designer.vb">
+    <Compile Include="CommandVB\Administrator\GoldRate.Designer.vb">
       <DependentUpon>GoldRate.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\GoldRate.vb">
+    <Compile Include="CommandVB\Administrator\GoldRate.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Guri.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Guri.Designer.vb">
       <DependentUpon>Guri.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Guri.vb">
+    <Compile Include="CommandVB\Administrator\Guri.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\HairColor.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\HairColor.Designer.vb">
       <DependentUpon>HairColor.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\HairColor.vb">
+    <Compile Include="CommandVB\GameMaster\HairColor.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\HairStyle.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\HairStyle.Designer.vb">
       <DependentUpon>HairStyle.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\HairStyle.vb">
+    <Compile Include="CommandVB\GameMaster\HairStyle.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\HelpMe.Designer.vb">
+    <Compile Include="CommandVB\Player\HelpMe.Designer.vb">
       <DependentUpon>HelpMe.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\HelpMe.vb">
+    <Compile Include="CommandVB\Player\HelpMe.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\HeroLvl.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\HeroLvl.Designer.vb">
       <DependentUpon>HeroLvl.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\HeroLvl.vb">
+    <Compile Include="CommandVB\GameMaster\HeroLvl.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\HeroXpRate.Designer.vb">
+    <Compile Include="CommandVB\Administrator\HeroXpRate.Designer.vb">
       <DependentUpon>HeroXpRate.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\HeroXpRate.vb">
+    <Compile Include="CommandVB\Administrator\HeroXpRate.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\InstanceMusic.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\InstanceMusic.Designer.vb">
       <DependentUpon>InstanceMusic.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\InstanceMusic.vb">
+    <Compile Include="CommandVB\GameMaster\InstanceMusic.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Invisible.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Invisible.Designer.vb">
       <DependentUpon>Invisible.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Invisible.vb">
+    <Compile Include="CommandVB\GameMaster\Invisible.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\ItemRain.Designer.vb">
+    <Compile Include="CommandVB\Administrator\ItemRain.Designer.vb">
       <DependentUpon>ItemRain.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\ItemRain.vb">
+    <Compile Include="CommandVB\Administrator\ItemRain.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ItemVnum.Designer.vb">
@@ -422,76 +422,76 @@
     <Compile Include="ItemVnum.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\JLvl.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\JLvl.Designer.vb">
       <DependentUpon>JLvl.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\JLvl.vb">
+    <Compile Include="CommandVB\GameMaster\JLvl.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Kick.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Kick.Designer.vb">
       <DependentUpon>Kick.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Kick.vb">
+    <Compile Include="CommandVB\Administrator\Kick.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\KickSession.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\KickSession.Designer.vb">
       <DependentUpon>KickSession.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\KickSession.vb">
+    <Compile Include="CommandVB\GameMaster\KickSession.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Kill.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Kill.Designer.vb">
       <DependentUpon>Kill.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Kill.vb">
+    <Compile Include="CommandVB\Administrator\Kill.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Lvl.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Lvl.Designer.vb">
       <DependentUpon>Lvl.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Lvl.vb">
+    <Compile Include="CommandVB\GameMaster\Lvl.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Maintenance.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Maintenance.Designer.vb">
       <DependentUpon>Maintenance.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Maintenance.vb">
+    <Compile Include="CommandVB\Administrator\Maintenance.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\MapDance.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\MapDance.Designer.vb">
       <DependentUpon>MapDance.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\MapDance.vb">
+    <Compile Include="CommandVB\GameMaster\MapDance.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\MapID.Designer.vb">
+    <Compile Include="CommandVB\Unused\MapID.Designer.vb">
       <DependentUpon>MapID.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\MapID.vb">
+    <Compile Include="CommandVB\Unused\MapID.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\MapPVP.Designer.vb">
+    <Compile Include="CommandVB\Administrator\MapPVP.Designer.vb">
       <DependentUpon>MapPVP.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\MapPVP.vb">
+    <Compile Include="CommandVB\Administrator\MapPVP.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\MonsterVnum.Designer.vb">
+    <Compile Include="CommandVB\Unused\MonsterVnum.Designer.vb">
       <DependentUpon>MonsterVnum.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\MonsterVnum.vb">
+    <Compile Include="CommandVB\Unused\MonsterVnum.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Morph.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Morph.Designer.vb">
       <DependentUpon>Morph.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Morph.vb">
+    <Compile Include="CommandVB\GameMaster\Morph.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Mute.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Mute.Designer.vb">
       <DependentUpon>Mute.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Mute.vb">
+    <Compile Include="CommandVB\GameMaster\Mute.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -509,58 +509,58 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="CommandVB\Packet.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Packet.Designer.vb">
       <DependentUpon>Packet.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Packet.vb">
+    <Compile Include="CommandVB\Administrator\Packet.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\PenaltyLog.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\PenaltyLog.Designer.vb">
       <DependentUpon>PenaltyLog.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\PenaltyLog.vb">
+    <Compile Include="CommandVB\GameMaster\PenaltyLog.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\PortalTo.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\PortalTo.Designer.vb">
       <DependentUpon>PortalTo.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\PortalTo.vb">
+    <Compile Include="CommandVB\GameMaster\PortalTo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Portaltypes.Designer.vb">
+    <Compile Include="CommandVB\Unused\Portaltypes.Designer.vb">
       <DependentUpon>Portaltypes.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Portaltypes.vb">
+    <Compile Include="CommandVB\Unused\Portaltypes.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Position.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Position.Designer.vb">
       <DependentUpon>Position.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Position.vb">
+    <Compile Include="CommandVB\GameMaster\Position.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Promote.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Promote.Designer.vb">
       <DependentUpon>Promote.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Promote.vb">
+    <Compile Include="CommandVB\Administrator\Promote.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Rarify.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Rarify.Designer.vb">
       <DependentUpon>Rarify.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Rarify.vb">
+    <Compile Include="CommandVB\GameMaster\Rarify.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\RemoveNpcMonster.Designer.vb">
+    <Compile Include="CommandVB\Administrator\RemoveNpcMonster.Designer.vb">
       <DependentUpon>RemoveNpcMonster.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\RemoveNpcMonster.vb">
+    <Compile Include="CommandVB\Administrator\RemoveNpcMonster.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\RemovePortal.Designer.vb">
+    <Compile Include="CommandVB\Administrator\RemovePortal.Designer.vb">
       <DependentUpon>RemovePortal.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\RemovePortal.vb">
+    <Compile Include="CommandVB\Administrator\RemovePortal.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Icons\ReputationIcon.Designer.vb">
@@ -569,253 +569,253 @@
     <Compile Include="Icons\ReputationIcon.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\SearchItem.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\SearchItem.Designer.vb">
       <DependentUpon>SearchItem.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\SearchItem.vb">
+    <Compile Include="CommandVB\GameMaster\SearchItem.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\SearchMonster.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\SearchMonster.Designer.vb">
       <DependentUpon>SearchMonster.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\SearchMonster.vb">
+    <Compile Include="CommandVB\GameMaster\SearchMonster.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\SetPerfection.Designer.vb">
+    <Compile Include="CommandVB\Administrator\SetPerfection.Designer.vb">
       <DependentUpon>SetPerfection.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\SetPerfection.vb">
+    <Compile Include="CommandVB\Administrator\SetPerfection.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Shout.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Shout.Designer.vb">
       <DependentUpon>Shout.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Shout.vb">
+    <Compile Include="CommandVB\Administrator\Shout.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\ShoutHere.Designer.vb">
+    <Compile Include="CommandVB\Administrator\ShoutHere.Designer.vb">
       <DependentUpon>ShoutHere.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\ShoutHere.vb">
+    <Compile Include="CommandVB\Administrator\ShoutHere.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Shutdown.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Shutdown.Designer.vb">
       <DependentUpon>Shutdown.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Shutdown.vb">
+    <Compile Include="CommandVB\Administrator\Shutdown.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\ShutdownAll.Designer.vb">
+    <Compile Include="CommandVB\Administrator\ShutdownAll.Designer.vb">
       <DependentUpon>ShutdownAll.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\ShutdownAll.vb">
+    <Compile Include="CommandVB\Administrator\ShutdownAll.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\SkillVnum.Designer.vb">
+    <Compile Include="CommandVB\Unused\SkillVnum.Designer.vb">
       <DependentUpon>SkillVnum.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\SkillVnum.vb">
+    <Compile Include="CommandVB\Unused\SkillVnum.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Sort.Designer.vb">
+    <Compile Include="CommandVB\Player\Sort.Designer.vb">
       <DependentUpon>Sort.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Sort.vb">
+    <Compile Include="CommandVB\Player\Sort.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Speed.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Speed.Designer.vb">
       <DependentUpon>Speed.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Speed.vb">
+    <Compile Include="CommandVB\GameMaster\Speed.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\SPLvl.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\SPLvl.Designer.vb">
       <DependentUpon>SPLvl.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\SPLvl.vb">
+    <Compile Include="CommandVB\GameMaster\SPLvl.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\SPRefill.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\SPRefill.Designer.vb">
       <DependentUpon>SPRefill.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\SPRefill.vb">
+    <Compile Include="CommandVB\GameMaster\SPRefill.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Stat.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Stat.Designer.vb">
       <DependentUpon>Stat.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Stat.vb">
+    <Compile Include="CommandVB\Administrator\Stat.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Sudo.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Sudo.Designer.vb">
       <DependentUpon>Sudo.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Sudo.vb">
+    <Compile Include="CommandVB\Administrator\Sudo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Summon.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Summon.Designer.vb">
       <DependentUpon>Summon.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Summon.vb">
+    <Compile Include="CommandVB\Administrator\Summon.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\SummonNPC.Designer.vb">
+    <Compile Include="CommandVB\Administrator\SummonNPC.Designer.vb">
       <DependentUpon>SummonNPC.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\SummonNPC.vb">
+    <Compile Include="CommandVB\Administrator\SummonNPC.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Teleport.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Teleport.Designer.vb">
       <DependentUpon>Teleport.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Teleport.vb">
+    <Compile Include="CommandVB\GameMaster\Teleport.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\TeleportToMe.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\TeleportToMe.Designer.vb">
       <DependentUpon>TeleportToMe.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\TeleportToMe.vb">
+    <Compile Include="CommandVB\GameMaster\TeleportToMe.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TObject.vb" />
-    <Compile Include="CommandVB\Unban.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Unban.Designer.vb">
       <DependentUpon>Unban.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Unban.vb">
+    <Compile Include="CommandVB\Administrator\Unban.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Undercover.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Undercover.Designer.vb">
       <DependentUpon>Undercover.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Undercover.vb">
+    <Compile Include="CommandVB\Administrator\Undercover.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Unmute.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Unmute.Designer.vb">
       <DependentUpon>Unmute.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Unmute.vb">
+    <Compile Include="CommandVB\Administrator\Unmute.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Unstuck.Designer.vb">
+    <Compile Include="CommandVB\Player\Unstuck.Designer.vb">
       <DependentUpon>Unstuck.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Unstuck.vb">
+    <Compile Include="CommandVB\Player\Unstuck.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Upgrade.Designer.vb">
+    <Compile Include="CommandVB\Administrator\Upgrade.Designer.vb">
       <DependentUpon>Upgrade.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Upgrade.vb">
+    <Compile Include="CommandVB\Administrator\Upgrade.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Warn.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Warn.Designer.vb">
       <DependentUpon>Warn.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Warn.vb">
+    <Compile Include="CommandVB\GameMaster\Warn.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\WigColor.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\WigColor.Designer.vb">
       <DependentUpon>WigColor.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\WigColor.vb">
+    <Compile Include="CommandVB\GameMaster\WigColor.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\XpRate.Designer.vb">
+    <Compile Include="CommandVB\Administrator\XpRate.Designer.vb">
       <DependentUpon>XpRate.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\XpRate.vb">
+    <Compile Include="CommandVB\Administrator\XpRate.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CommandVB\Zoom.Designer.vb">
+    <Compile Include="CommandVB\GameMaster\Zoom.Designer.vb">
       <DependentUpon>Zoom.vb</DependentUpon>
     </Compile>
-    <Compile Include="CommandVB\Zoom.vb">
+    <Compile Include="CommandVB\GameMaster\Zoom.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CommandVB\AddMonster.resx">
+    <EmbeddedResource Include="CommandVB\Administrator\AddMonster.resx">
       <DependentUpon>AddMonster.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\AddPartner.resx">
+    <EmbeddedResource Include="CommandVB\Administrator\AddPartner.resx">
       <DependentUpon>AddPartner.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\AddPet.resx">
+    <EmbeddedResource Include="CommandVB\Administrator\AddPet.resx">
       <DependentUpon>AddPet.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\AddPortal.resx">
+    <EmbeddedResource Include="CommandVB\Administrator\AddPortal.resx">
       <DependentUpon>AddPortal.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\AddShellEffect.resx">
+    <EmbeddedResource Include="CommandVB\Administrator\AddShellEffect.resx">
       <DependentUpon>AddShellEffect.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\AddSkill.resx">
+    <EmbeddedResource Include="CommandVB\Administrator\AddSkill.resx">
       <DependentUpon>AddSkill.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\ArenaWinner.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\ArenaWinner.resx">
       <DependentUpon>ArenaWinner.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\BackPack.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\BackPack.resx">
       <DependentUpon>BackPack.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\Ban.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\Ban.resx">
       <DependentUpon>Ban.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\Bank.resx">
+    <EmbeddedResource Include="CommandVB\Player\Bank.resx">
       <DependentUpon>Bank.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\BankBalance.resx">
+    <EmbeddedResource Include="CommandVB\Player\BankBalance.resx">
       <DependentUpon>BankBalance.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\BankDeposit.resx">
+    <EmbeddedResource Include="CommandVB\Player\BankDeposit.resx">
       <DependentUpon>BankDeposit.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\BankHelp.resx">
+    <EmbeddedResource Include="CommandVB\Player\BankHelp.resx">
       <DependentUpon>BankHelp.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\BankSend.resx">
+    <EmbeddedResource Include="CommandVB\Player\BankSend.resx">
       <DependentUpon>BankSend.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\BankWithdraw.resx">
+    <EmbeddedResource Include="CommandVB\Player\BankWithdraw.resx">
       <DependentUpon>BankWithdraw.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\BlockExp.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\BlockExp.resx">
       <DependentUpon>BlockExp.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\BlockFExp.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\BlockFExp.resx">
       <DependentUpon>BlockFExp.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\BlockPM.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\BlockPM.resx">
       <DependentUpon>BlockPM.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\BlockRep.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\BlockRep.resx">
       <DependentUpon>BlockRep.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\Buff.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\Buff.resx">
       <DependentUpon>Buff.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\ChangeClass.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\ChangeClass.resx">
       <DependentUpon>ChangeClass.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\ChangeDignity.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\ChangeDignity.resx">
       <DependentUpon>ChangeDignity.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\Changelog.resx">
+    <EmbeddedResource Include="CommandVB\Unused\Changelog.resx">
       <DependentUpon>Changelog.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\ChangeRep.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\ChangeRep.resx">
       <DependentUpon>ChangeRep.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\ChangeSex.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\ChangeSex.resx">
       <DependentUpon>ChangeSex.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\ChannelInfo.resx">
+    <EmbeddedResource Include="CommandVB\GameMaster\ChannelInfo.resx">
       <DependentUpon>ChannelInfo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Classes.resx">
       <DependentUpon>Classes.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\DignityIcons.resx">
+    <EmbeddedResource Include="CommandVB\Unused\DignityIcons.resx">
       <DependentUpon>DignityIcons.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GMCommands.resx">
@@ -830,7 +830,7 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommandVB\Portaltypes.resx">
+    <EmbeddedResource Include="CommandVB\Unused\Portaltypes.resx">
       <DependentUpon>Portaltypes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Icons\ReputationIcon.resx">
