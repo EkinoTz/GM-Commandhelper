@@ -192,7 +192,7 @@ Partial Class GMCommands
         Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox3.Image = Global.WindowsApp1.My.Resources.Resources._4d5fae7c4e25c90276bbddb5196cee1d
         Me.PictureBox3.InitialImage = CType(resources.GetObject("PictureBox3.InitialImage"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(611, 111)
+        Me.PictureBox3.Location = New System.Drawing.Point(609, 111)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(72, 72)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -395,7 +395,7 @@ Partial Class GMCommands
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = Global.WindowsApp1.My.Resources.Resources._699c22fa9a2f41fb9129edcf5eac0923
         Me.PictureBox1.InitialImage = CType(resources.GetObject("PictureBox1.InitialImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(535, 111)
+        Me.PictureBox1.Location = New System.Drawing.Point(537, 111)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(72, 72)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom

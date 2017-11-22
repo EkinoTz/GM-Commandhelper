@@ -241,9 +241,9 @@ Partial Class ItemVnums
         Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox58)
         Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox59)
         Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox60)
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(643, 66)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(643, 91)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(478, 455)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(478, 430)
         Me.FlowLayoutPanel1.TabIndex = 196
         '
         'PictureBox1

@@ -5,7 +5,7 @@
     End Sub
 
     Private Sub PictureBox1_MouseHover(sender As Object, e As EventArgs) Handles PictureBox1.MouseHover
-        Label1.Text = "Name: Woodenstick" + vbCrLf + "Level: 1" + vbCrLf + "Class: Adventure" + vbCrLf + "Description :" + vbCrLf + ""
+        Label1.Text = "Name: Wooden Stick" + vbCrLf + "Level: 1" + vbCrLf + "Class: Adventure" + vbCrLf + "Description :" + vbCrLf + ""
         GoldLabel.Text = "70"
         GoldPictureBox.Image = My.Resources.GOLD
         IdLabel.Text = "#1"
@@ -13,7 +13,7 @@
     End Sub
 
     Private Sub PictureBox2__MouseHover(sender As Object, e As EventArgs) Handles PictureBox2.MouseHover
-        Label1.Text = "Name: WoodenIDK?" + vbCrLf + "Level: 4" + vbCrLf + "Class: Adventure" + vbCrLf + "Description :" + vbCrLf + ""
+        Label1.Text = "Name: Wooden Stick" + vbCrLf + "Level: 4" + vbCrLf + "Class: Adventure" + vbCrLf + "Description :" + vbCrLf + ""
         GoldLabel.Text = "400"
         GoldPictureBox.Image = My.Resources.GOLD
         IdLabel.Text = "#2"
@@ -194,6 +194,294 @@
         GoldPictureBox.Image = My.Resources.GOLD
         IdLabel.Text = "#24"
         ItemPictureBox.Image = My.Resources._24
+    End Sub
+
+    Private Sub PictureBox25_MouseHover(sender As Object, e As EventArgs) Handles PictureBox25.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "28224"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#25"
+        ItemPictureBox.Image = My.Resources._25
+    End Sub
+
+    Private Sub PictureBox26_MouseHover(sender As Object, e As EventArgs) Handles PictureBox26.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "33488"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#26"
+        ItemPictureBox.Image = My.Resources._26
+    End Sub
+
+    Private Sub PictureBox27_MouseHover(sender As Object, e As EventArgs) Handles PictureBox27.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "36288"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#27"
+        ItemPictureBox.Image = My.Resources._27
+    End Sub
+
+    Private Sub PictureBox28_MouseHover(sender As Object, e As EventArgs) Handles PictureBox28.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "45240"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#28"
+        ItemPictureBox.Image = My.Resources._28
+    End Sub
+
+    Private Sub PictureBox29_MouseHover(sender As Object, e As EventArgs) Handles PictureBox29.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "46905"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#29"
+        ItemPictureBox.Image = My.Resources._29
+    End Sub
+
+    Private Sub PictureBox30_MouseHover(sender As Object, e As EventArgs) Handles PictureBox30.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "53865"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#30"
+        ItemPictureBox.Image = My.Resources._30
+    End Sub
+
+    Private Sub PictureBox31_MouseHover(sender As Object, e As EventArgs) Handles PictureBox31.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "63360"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#31"
+        ItemPictureBox.Image = My.Resources._31
+    End Sub
+
+    Private Sub PictureBox32_MouseHover(sender As Object, e As EventArgs) Handles PictureBox32.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "3465"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#32"
+        ItemPictureBox.Image = My.Resources._32
+    End Sub
+
+    Private Sub PictureBox33_MouseHover(sender As Object, e As EventArgs) Handles PictureBox33.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "6240"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#33"
+        ItemPictureBox.Image = My.Resources._33
+    End Sub
+
+    Private Sub PictureBox34_MouseHover(sender As Object, e As EventArgs) Handles PictureBox34.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "9984"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#34"
+        ItemPictureBox.Image = My.Resources._34
+    End Sub
+
+    Private Sub PictureBox35_MouseHover(sender As Object, e As EventArgs) Handles PictureBox35.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "12180"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#35"
+        ItemPictureBox.Image = My.Resources._35
+    End Sub
+
+    Private Sub PictureBox36_MouseHover(sender As Object, e As EventArgs) Handles PictureBox36.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "17680"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#36"
+        ItemPictureBox.Image = My.Resources._36
+    End Sub
+
+    Private Sub PictureBox37_MouseHover(sender As Object, e As EventArgs) Handles PictureBox37.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "19656"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#37"
+        ItemPictureBox.Image = My.Resources._37
+    End Sub
+
+    Private Sub PictureBox38_MouseHover(sender As Object, e As EventArgs) Handles PictureBox38.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "25760"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#38"
+        ItemPictureBox.Image = My.Resources._38
+    End Sub
+
+    Private Sub PictureBox39_MouseHover(sender As Object, e As EventArgs) Handles PictureBox39.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "28224"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#39"
+        ItemPictureBox.Image = My.Resources._30
+    End Sub
+
+    Private Sub PictureBox40_MouseHover(sender As Object, e As EventArgs) Handles PictureBox40.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "33488"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#40"
+        ItemPictureBox.Image = My.Resources._40
+    End Sub
+
+    Private Sub PictureBox41_MouseHover(sender As Object, e As EventArgs) Handles PictureBox41.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "36288"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#41"
+        ItemPictureBox.Image = My.Resources._41
+    End Sub
+
+    Private Sub PictureBox42_MouseHover(sender As Object, e As EventArgs) Handles PictureBox42.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "45240"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#42"
+        ItemPictureBox.Image = My.Resources._42
+    End Sub
+
+    Private Sub PictureBox43_MouseHover(sender As Object, e As EventArgs) Handles PictureBox43.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "46905"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#43"
+        ItemPictureBox.Image = My.Resources._43
+    End Sub
+
+    Private Sub PictureBox44_MouseHover(sender As Object, e As EventArgs) Handles PictureBox44.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "53865"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#44"
+        ItemPictureBox.Image = My.Resources._44
+    End Sub
+
+    Private Sub PictureBox45_MouseHover(sender As Object, e As EventArgs) Handles PictureBox45.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "63360"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#45"
+        ItemPictureBox.Image = My.Resources._45
+    End Sub
+
+    Private Sub PictureBox46_MouseHover(sender As Object, e As EventArgs) Handles PictureBox46.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "3465"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#46"
+        ItemPictureBox.Image = My.Resources._46
+    End Sub
+
+    Private Sub PictureBox47_MouseHover(sender As Object, e As EventArgs) Handles PictureBox47.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "6240"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#47"
+        ItemPictureBox.Image = My.Resources._47
+    End Sub
+
+    Private Sub PictureBox48_MouseHover(sender As Object, e As EventArgs) Handles PictureBox48.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "9984"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#48"
+        ItemPictureBox.Image = My.Resources._48
+    End Sub
+
+    Private Sub PictureBox49_MouseHover(sender As Object, e As EventArgs) Handles PictureBox49.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "12180"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#49"
+        ItemPictureBox.Image = My.Resources._49
+    End Sub
+
+    Private Sub PictureBox50_MouseHover(sender As Object, e As EventArgs) Handles PictureBox50.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "17680"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#50"
+        ItemPictureBox.Image = My.Resources._50
+    End Sub
+
+    Private Sub PictureBox51_MouseHover(sender As Object, e As EventArgs) Handles PictureBox51.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "19656"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#51"
+        ItemPictureBox.Image = My.Resources._51
+    End Sub
+
+    Private Sub PictureBox52_MouseHover(sender As Object, e As EventArgs) Handles PictureBox52.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "25760"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#52"
+        ItemPictureBox.Image = My.Resources._52
+    End Sub
+
+    Private Sub PictureBox53_MouseHover(sender As Object, e As EventArgs) Handles PictureBox53.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "28224"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#53"
+        ItemPictureBox.Image = My.Resources._53
+    End Sub
+
+    Private Sub PictureBox54_MouseHover(sender As Object, e As EventArgs) Handles PictureBox54.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "33488"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#54"
+        ItemPictureBox.Image = My.Resources._54
+    End Sub
+
+    Private Sub PictureBox55_MouseHover(sender As Object, e As EventArgs) Handles PictureBox55.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "36288"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#55"
+        ItemPictureBox.Image = My.Resources._55
+    End Sub
+
+    Private Sub PictureBox56_MouseHover(sender As Object, e As EventArgs) Handles PictureBox56.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "45240"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#56"
+        ItemPictureBox.Image = My.Resources._56
+    End Sub
+
+    Private Sub PictureBox57_MouseHover(sender As Object, e As EventArgs) Handles PictureBox57.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "46905"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#57"
+        ItemPictureBox.Image = My.Resources._57
+    End Sub
+
+    Private Sub PictureBox58_MouseHover(sender As Object, e As EventArgs) Handles PictureBox58.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "53865"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#58"
+        ItemPictureBox.Image = My.Resources._58
+    End Sub
+
+    Private Sub PictureBox59_MouseHover(sender As Object, e As EventArgs) Handles PictureBox59.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "63360"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#59"
+        ItemPictureBox.Image = My.Resources._59
+    End Sub
+
+    Private Sub PictureBox60_MouseHover(sender As Object, e As EventArgs) Handles PictureBox60.MouseHover
+        Label1.Text = "Name: " + vbCrLf + "Level: " + vbCrLf + "Class: " + vbCrLf + "Description :" + vbCrLf + ""
+        GoldLabel.Text = "1485"
+        GoldPictureBox.Image = My.Resources.GOLD
+        IdLabel.Text = "#60"
+        ItemPictureBox.Image = My.Resources._60
     End Sub
 
 End Class
