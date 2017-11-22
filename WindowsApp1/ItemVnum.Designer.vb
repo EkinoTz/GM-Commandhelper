@@ -24,6 +24,10 @@ Partial Class ItemVnums
     Private Sub InitializeComponent()
         Me.MephTheme1 = New WindowsApp1.MephTheme()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.IdLabel = New System.Windows.Forms.Label()
+        Me.GoldLabel = New System.Windows.Forms.Label()
+        Me.Label1 = New WindowsApp1.MephTextBox()
+        Me.MephButton1 = New WindowsApp1.MephButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -84,12 +88,20 @@ Partial Class ItemVnums
         Me.PictureBox58 = New System.Windows.Forms.PictureBox()
         Me.PictureBox59 = New System.Windows.Forms.PictureBox()
         Me.PictureBox60 = New System.Windows.Forms.PictureBox()
-        Me.IdLabel = New System.Windows.Forms.Label()
-        Me.GoldLabel = New System.Windows.Forms.Label()
+        Me.PictureBox61 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox62 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox63 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox64 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox65 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox66 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox67 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox68 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox69 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox70 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox71 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox72 = New System.Windows.Forms.PictureBox()
         Me.GoldPictureBox = New System.Windows.Forms.PictureBox()
         Me.ItemPictureBox = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New WindowsApp1.MephTextBox()
-        Me.MephButton1 = New WindowsApp1.MephButton()
         Me.PictureBox999 = New System.Windows.Forms.PictureBox()
         Me.MephTheme1.SuspendLayout()
         Me.FlowLayoutPanel1.SuspendLayout()
@@ -153,6 +165,18 @@ Partial Class ItemVnums
         CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox68, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox69, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GoldPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ItemPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox999, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -241,10 +265,70 @@ Partial Class ItemVnums
         Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox58)
         Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox59)
         Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox60)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox61)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox62)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox63)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox64)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox65)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox66)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox67)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox68)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox69)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox70)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox71)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PictureBox72)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(643, 91)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(478, 430)
         Me.FlowLayoutPanel1.TabIndex = 196
+        '
+        'IdLabel
+        '
+        Me.IdLabel.AutoSize = True
+        Me.IdLabel.BackColor = System.Drawing.Color.Transparent
+        Me.IdLabel.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IdLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(190, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IdLabel.Location = New System.Drawing.Point(15, 71)
+        Me.IdLabel.Name = "IdLabel"
+        Me.IdLabel.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.IdLabel.Size = New System.Drawing.Size(0, 15)
+        Me.IdLabel.TabIndex = 63
+        '
+        'GoldLabel
+        '
+        Me.GoldLabel.BackColor = System.Drawing.Color.Transparent
+        Me.GoldLabel.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GoldLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(190, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.GoldLabel.Location = New System.Drawing.Point(579, 73)
+        Me.GoldLabel.Name = "GoldLabel"
+        Me.GoldLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.GoldLabel.Size = New System.Drawing.Size(43, 13)
+        Me.GoldLabel.TabIndex = 62
+        '
+        'Label1
+        '
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.Label1.ForeColor = System.Drawing.Color.Silver
+        Me.Label1.Location = New System.Drawing.Point(12, 133)
+        Me.Label1.MaxLength = 32767
+        Me.Label1.MultiLine = True
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(625, 388)
+        Me.Label1.TabIndex = 56
+        Me.Label1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label1.UseSystemPasswordChar = False
+        Me.Label1.WordWrap = False
+        '
+        'MephButton1
+        '
+        Me.MephButton1.BackColor = System.Drawing.Color.Transparent
+        Me.MephButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.MephButton1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.MephButton1.Location = New System.Drawing.Point(15, 527)
+        Me.MephButton1.Name = "MephButton1"
+        Me.MephButton1.Size = New System.Drawing.Size(1106, 23)
+        Me.MephButton1.TabIndex = 55
+        Me.MephButton1.Text = "Close"
         '
         'PictureBox1
         '
@@ -786,28 +870,113 @@ Partial Class ItemVnums
         Me.PictureBox60.TabIndex = 110
         Me.PictureBox60.TabStop = False
         '
-        'IdLabel
+        'PictureBox61
         '
-        Me.IdLabel.AutoSize = True
-        Me.IdLabel.BackColor = System.Drawing.Color.Transparent
-        Me.IdLabel.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IdLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(190, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.IdLabel.Location = New System.Drawing.Point(15, 71)
-        Me.IdLabel.Name = "IdLabel"
-        Me.IdLabel.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.IdLabel.Size = New System.Drawing.Size(0, 15)
-        Me.IdLabel.TabIndex = 63
+        Me.PictureBox61.Image = Global.WindowsApp1.My.Resources.Resources._61
+        Me.PictureBox61.Location = New System.Drawing.Point(3, 193)
+        Me.PictureBox61.Name = "PictureBox61"
+        Me.PictureBox61.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox61.TabIndex = 111
+        Me.PictureBox61.TabStop = False
         '
-        'GoldLabel
+        'PictureBox62
         '
-        Me.GoldLabel.BackColor = System.Drawing.Color.Transparent
-        Me.GoldLabel.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GoldLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(190, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GoldLabel.Location = New System.Drawing.Point(579, 73)
-        Me.GoldLabel.Name = "GoldLabel"
-        Me.GoldLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.GoldLabel.Size = New System.Drawing.Size(43, 13)
-        Me.GoldLabel.TabIndex = 62
+        Me.PictureBox62.Image = Global.WindowsApp1.My.Resources.Resources._62
+        Me.PictureBox62.Location = New System.Drawing.Point(41, 193)
+        Me.PictureBox62.Name = "PictureBox62"
+        Me.PictureBox62.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox62.TabIndex = 112
+        Me.PictureBox62.TabStop = False
+        '
+        'PictureBox63
+        '
+        Me.PictureBox63.Image = Global.WindowsApp1.My.Resources.Resources._63
+        Me.PictureBox63.Location = New System.Drawing.Point(79, 193)
+        Me.PictureBox63.Name = "PictureBox63"
+        Me.PictureBox63.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox63.TabIndex = 113
+        Me.PictureBox63.TabStop = False
+        '
+        'PictureBox64
+        '
+        Me.PictureBox64.Image = Global.WindowsApp1.My.Resources.Resources._64
+        Me.PictureBox64.Location = New System.Drawing.Point(117, 193)
+        Me.PictureBox64.Name = "PictureBox64"
+        Me.PictureBox64.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox64.TabIndex = 114
+        Me.PictureBox64.TabStop = False
+        '
+        'PictureBox65
+        '
+        Me.PictureBox65.Image = Global.WindowsApp1.My.Resources.Resources._65
+        Me.PictureBox65.Location = New System.Drawing.Point(155, 193)
+        Me.PictureBox65.Name = "PictureBox65"
+        Me.PictureBox65.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox65.TabIndex = 115
+        Me.PictureBox65.TabStop = False
+        '
+        'PictureBox66
+        '
+        Me.PictureBox66.Image = Global.WindowsApp1.My.Resources.Resources._20
+        Me.PictureBox66.Location = New System.Drawing.Point(193, 193)
+        Me.PictureBox66.Name = "PictureBox66"
+        Me.PictureBox66.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox66.TabIndex = 116
+        Me.PictureBox66.TabStop = False
+        '
+        'PictureBox67
+        '
+        Me.PictureBox67.Image = Global.WindowsApp1.My.Resources.Resources._67
+        Me.PictureBox67.Location = New System.Drawing.Point(231, 193)
+        Me.PictureBox67.Name = "PictureBox67"
+        Me.PictureBox67.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox67.TabIndex = 117
+        Me.PictureBox67.TabStop = False
+        '
+        'PictureBox68
+        '
+        Me.PictureBox68.Image = Global.WindowsApp1.My.Resources.Resources._68
+        Me.PictureBox68.Location = New System.Drawing.Point(269, 193)
+        Me.PictureBox68.Name = "PictureBox68"
+        Me.PictureBox68.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox68.TabIndex = 118
+        Me.PictureBox68.TabStop = False
+        '
+        'PictureBox69
+        '
+        Me.PictureBox69.Image = Global.WindowsApp1.My.Resources.Resources._69
+        Me.PictureBox69.Location = New System.Drawing.Point(307, 193)
+        Me.PictureBox69.Name = "PictureBox69"
+        Me.PictureBox69.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox69.TabIndex = 119
+        Me.PictureBox69.TabStop = False
+        '
+        'PictureBox70
+        '
+        Me.PictureBox70.Image = Global.WindowsApp1.My.Resources.Resources._70
+        Me.PictureBox70.Location = New System.Drawing.Point(345, 193)
+        Me.PictureBox70.Name = "PictureBox70"
+        Me.PictureBox70.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox70.TabIndex = 120
+        Me.PictureBox70.TabStop = False
+        '
+        'PictureBox71
+        '
+        Me.PictureBox71.Image = Global.WindowsApp1.My.Resources.Resources._71
+        Me.PictureBox71.Location = New System.Drawing.Point(383, 193)
+        Me.PictureBox71.Name = "PictureBox71"
+        Me.PictureBox71.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox71.TabIndex = 121
+        Me.PictureBox71.TabStop = False
+        '
+        'PictureBox72
+        '
+        Me.PictureBox72.Image = Global.WindowsApp1.My.Resources.Resources._72
+        Me.PictureBox72.Location = New System.Drawing.Point(421, 193)
+        Me.PictureBox72.Name = "PictureBox72"
+        Me.PictureBox72.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox72.TabIndex = 122
+        Me.PictureBox72.TabStop = False
         '
         'GoldPictureBox
         '
@@ -828,31 +997,6 @@ Partial Class ItemVnums
         Me.ItemPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ItemPictureBox.TabIndex = 58
         Me.ItemPictureBox.TabStop = False
-        '
-        'Label1
-        '
-        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Label1.ForeColor = System.Drawing.Color.Silver
-        Me.Label1.Location = New System.Drawing.Point(12, 133)
-        Me.Label1.MaxLength = 32767
-        Me.Label1.MultiLine = True
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(625, 388)
-        Me.Label1.TabIndex = 56
-        Me.Label1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center
-        Me.Label1.UseSystemPasswordChar = False
-        Me.Label1.WordWrap = False
-        '
-        'MephButton1
-        '
-        Me.MephButton1.BackColor = System.Drawing.Color.Transparent
-        Me.MephButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.MephButton1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.MephButton1.Location = New System.Drawing.Point(15, 527)
-        Me.MephButton1.Name = "MephButton1"
-        Me.MephButton1.Size = New System.Drawing.Size(1106, 23)
-        Me.MephButton1.TabIndex = 55
-        Me.MephButton1.Text = "Close"
         '
         'PictureBox999
         '
@@ -940,6 +1084,18 @@ Partial Class ItemVnums
         CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox68, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox69, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GoldPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ItemPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox999, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1016,4 +1172,16 @@ Partial Class ItemVnums
     Friend WithEvents PictureBox15 As PictureBox
     Friend WithEvents PictureBox14 As PictureBox
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
+    Friend WithEvents PictureBox61 As PictureBox
+    Friend WithEvents PictureBox62 As PictureBox
+    Friend WithEvents PictureBox63 As PictureBox
+    Friend WithEvents PictureBox64 As PictureBox
+    Friend WithEvents PictureBox65 As PictureBox
+    Friend WithEvents PictureBox66 As PictureBox
+    Friend WithEvents PictureBox67 As PictureBox
+    Friend WithEvents PictureBox68 As PictureBox
+    Friend WithEvents PictureBox69 As PictureBox
+    Friend WithEvents PictureBox70 As PictureBox
+    Friend WithEvents PictureBox71 As PictureBox
+    Friend WithEvents PictureBox72 As PictureBox
 End Class
