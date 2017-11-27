@@ -214,8 +214,6 @@ Public Class MephTheme : Inherits ContainerControl
     End Sub
     Protected Overrides Sub OnCreateControl()
         MyBase.OnCreateControl()
-        Me.ParentForm.FormBorderStyle = FormBorderStyle.None
-        Me.ParentForm.TransparencyKey = Color.Fuchsia
         Dock = DockStyle.Fill
     End Sub
 End Class
