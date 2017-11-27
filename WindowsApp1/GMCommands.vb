@@ -9108,28 +9108,28 @@ Public Class GMCommands
     Private Sub MephButton99_Click(sender As Object, e As EventArgs) Handles MephButton99.Click
         MonsterVnum.Show()
         MapID.Close()
-        ItemVnums.Close()
+        ItemListHTML.Close()
         SkillVnum.Close()
     End Sub
 
     Private Sub MephButton98_Click(sender As Object, e As EventArgs) Handles MephButton98.Click
         MonsterVnum.Close()
         MapID.Close()
-        ItemVnums.Show()
+        ItemListHTML.Show()
         SkillVnum.Close()
     End Sub
 
     Private Sub MephButton97_Click(sender As Object, e As EventArgs) Handles MephButton97.Click
         MonsterVnum.Close()
         MapID.Show()
-        ItemVnums.Close()
+        ItemListHTML.Close()
         SkillVnum.Close()
     End Sub
 
     Private Sub MephButton100_Click(sender As Object, e As EventArgs) Handles MephButton100.Click
         MonsterVnum.Close()
         MapID.Close()
-        ItemVnums.Close()
+        ItemListHTML.Close()
         SkillVnum.Show()
     End Sub
 

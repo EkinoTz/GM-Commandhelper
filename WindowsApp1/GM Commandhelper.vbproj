@@ -416,6 +416,12 @@
     <Compile Include="CommandVB\Administrator\ItemRain.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ItemListHTML.Designer.vb">
+      <DependentUpon>ItemListHTML.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemListHTML.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ItemVnum.Designer.vb">
       <DependentUpon>ItemVnum.vb</DependentUpon>
     </Compile>
@@ -820,6 +826,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GMCommands.resx">
       <DependentUpon>GMCommands.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemListHTML.resx">
+      <DependentUpon>ItemListHTML.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ItemVnum.resx">
       <DependentUpon>ItemVnum.vb</DependentUpon>
