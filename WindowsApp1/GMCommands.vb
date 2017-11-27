@@ -7,12 +7,11 @@ Imports System.Net.Sockets
 Public Class GMCommands
 
     Private Sub GMCommands_Load(sender As Object, e As EventArgs) Handles Me.Load
-
-
         Me.Height = 296
         Me.Width = 700
-
     End Sub
+
+#Region "Credits"
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         Process.Start("https://www.youtube.com/channel/UCTEtjXYy6uF-1MyhRePwSkQ?view_as=subscriber")
@@ -23,6 +22,9 @@ Public Class GMCommands
 
         Process.Start("https://go.twitch.tv/hunternos")
     End Sub
+#End Region
+
+#Region "Close"
 
     Private Sub MephButton1_Click(sender As Object, e As EventArgs) Handles MephButton1.Click
 
@@ -30,11 +32,16 @@ Public Class GMCommands
 
     End Sub
 
+#End Region
+
+#Region "Changelog"
     Private Sub MephButton92_Click(sender As Object, e As EventArgs) Handles MephButton92.Click
         Me.Hide()
         Changelog.Show()
 
     End Sub
+
+#End Region
 
 #Region "Buttons"
 
