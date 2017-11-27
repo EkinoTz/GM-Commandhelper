@@ -3,6 +3,8 @@ Imports System.Threading
 Imports System.Text
 Imports System.Net
 Imports System.Net.Sockets
+Imports CefSharp.Winforms
+Imports CefSharp
 
 Public Class GMCommands
 
