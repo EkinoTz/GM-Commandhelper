@@ -9200,7 +9200,7 @@ Public Class GMCommands
                 MephTextBox3.Text = "AMOUNT"
 
             Case "ChangeSex"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "SEX"
 
             Case "ChannelInfo"
                 MephTextBox3.Text = ""
@@ -9233,7 +9233,7 @@ Public Class GMCommands
                 MephTextBox3.Text = "EFFECTID"
 
             Case "Faction"
-                MephTextBox3.Text = "1/2"
+                MephTextBox3.Text = "0/1"
 
             Case "FairyXpRate"
                 MephTextBox3.Text = "VALUE"
@@ -9338,7 +9338,7 @@ Public Class GMCommands
                 MephTextBox3.Text = "SLOT MODE PROTECTION"
 
             Case "RemoveNpcMonster"
-                MephTextBox3.Text = ""
+                MephTextBox3.Text = "TARGET NPC or MONSTER"
 
             Case "RemovePortal"
                 MephTextBox3.Text = ""
