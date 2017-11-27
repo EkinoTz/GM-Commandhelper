@@ -45,7 +45,7 @@ Partial Class ItemListHTML
         Me.Controls.Add(Me.MephTheme1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "ItemListHTML"
-        Me.Text = "Item List"
+        Me.Text = "ItemListHTML"
         Me.TransparencyKey = System.Drawing.Color.Fuchsia
         Me.ResumeLayout(False)
 
