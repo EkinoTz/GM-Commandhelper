@@ -19,7 +19,7 @@ Public Class GMCommands
     End Sub
 
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
-
+        Process.Start("https://www.youtube.com/channel/UCbL0SS-9lk5vzly1Md5N2EA?view_as=subscriber")
         Process.Start("https://go.twitch.tv/hunternos")
     End Sub
 #End Region
