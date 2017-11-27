@@ -876,17 +876,19 @@ Public Class MephComboBox : Inherits ComboBox
         e.DrawFocusRectangle()
     End Sub
     Protected Sub DrawTriangle(ByVal Clr As Color, ByVal FirstPoint As Point, ByVal SecondPoint As Point, ByVal ThirdPoint As Point, ByVal FirstPoint2 As Point, ByVal SecondPoint2 As Point, ByVal ThirdPoint2 As Point, ByVal G As Graphics)
-        Dim points As New List(Of Point)()
-        points.Add(FirstPoint)
-        points.Add(SecondPoint)
-        points.Add(ThirdPoint)
+        Dim points As New List(Of Point) From {
+            FirstPoint,
+            SecondPoint,
+            ThirdPoint
+        }
         G.FillPolygon(New SolidBrush(Clr), points.ToArray)
         G.DrawPolygon(New Pen(New SolidBrush(Color.FromArgb(25, 25, 25))), points.ToArray)
 
-        Dim points2 As New List(Of Point)()
-        points2.Add(FirstPoint2)
-        points2.Add(SecondPoint2)
-        points2.Add(ThirdPoint2)
+        Dim points2 As New List(Of Point) From {
+            FirstPoint2,
+            SecondPoint2,
+            ThirdPoint2
+        }
         G.FillPolygon(New SolidBrush(Clr), points2.ToArray)
         G.DrawPolygon(New Pen(New SolidBrush(Color.FromArgb(25, 25, 25))), points2.ToArray)
     End Sub
@@ -997,11 +999,13 @@ Class MephTabcontrol
         For i = 0 To TabCount - 1
             If i = SelectedIndex Then
                 Dim x2 As Rectangle = New Rectangle(New Point(GetTabRect(i).Location.X - 2, GetTabRect(i).Location.Y - 2), New Size(GetTabRect(i).Width + 3, GetTabRect(i).Height - 1))
-                Dim myBlend As New ColorBlend()
-                myBlend.Colors = {Color.FromArgb(50, 50, 50), Color.FromArgb(50, 50, 50), Color.FromArgb(50, 50, 50)} 'Full Tab Background Gradient Accents
-                myBlend.Positions = {0.0F, 0.5F, 1.0F}
-                Dim lgBrush As New LinearGradientBrush(x2, Color.Black, Color.Black, 90.0F)
-                lgBrush.InterpolationColors = myBlend
+                Dim myBlend As New ColorBlend With {
+                    .Colors = {Color.FromArgb(50, 50, 50), Color.FromArgb(50, 50, 50), Color.FromArgb(50, 50, 50)}, 'Full Tab Background Gradient Accents
+                    .Positions = {0.0F, 0.5F, 1.0F}
+                }
+                Dim lgBrush As New LinearGradientBrush(x2, Color.Black, Color.Black, 90.0F) With {
+                    .InterpolationColors = myBlend
+                }
                 G.FillRectangle(lgBrush, x2)
                 'G.DrawRectangle(New Pen(Color.FromArgb(20, 20, 20)), x2) 'Full Tab Highlight Outline
                 Dim tabRect As New Rectangle(GetTabRect(i).Location.X + 4, GetTabRect(i).Location.Y + 2, GetTabRect(i).Size.Width + 10, GetTabRect(i).Size.Height - 11)
