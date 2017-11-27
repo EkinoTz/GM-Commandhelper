@@ -440,7 +440,7 @@ End Class
     End Sub
 End Class
 Public Class MephTextBox : Inherits Control
-    Dim WithEvents txtbox As New TextBox
+    Dim WithEvents Txtbox As New TextBox
 
 #Region " Control Help - Properties & Flicker Control "
     Private _passmask As Boolean = False
