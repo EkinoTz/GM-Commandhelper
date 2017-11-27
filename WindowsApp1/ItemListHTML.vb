@@ -25,7 +25,7 @@ Public Class ItemListHTML
     End Sub
 
     Private Sub MephButton1_Click(sender As Object, e As EventArgs) Handles MephButton1.Click
-        Close()
+        Me.Hide()
     End Sub
 
     Private Sub MephTheme1_Click(sender As Object, e As EventArgs) Handles MephTheme1.Click
