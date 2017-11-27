@@ -47,7 +47,7 @@ Partial Class ItemListHTML
         Me.WebBrowser1.Name = "WebBrowser1"
         Me.WebBrowser1.Size = New System.Drawing.Size(1082, 524)
         Me.WebBrowser1.TabIndex = 0
-        Me.WebBrowser1.Url = New System.Uri("https://xeno.yt/sipdata/items.php", System.UriKind.Absolute)
+        Me.WebBrowser1.Url = New System.Uri("http://noslegion.eu", System.UriKind.Absolute)
         '
         'ItemListHTML
         '
