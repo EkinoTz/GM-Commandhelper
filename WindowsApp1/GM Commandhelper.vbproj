@@ -472,12 +472,6 @@
     <Compile Include="ItemListHTML.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ItemVnum.Designer.vb">
-      <DependentUpon>ItemVnum.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ItemVnum.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="CommandVB\GameMaster\JLvl.Designer.vb">
       <DependentUpon>JLvl.vb</DependentUpon>
     </Compile>
@@ -880,9 +874,6 @@
     <EmbeddedResource Include="ItemListHTML.resx">
       <DependentUpon>ItemListHTML.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ItemVnum.resx">
-      <DependentUpon>ItemVnum.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -979,93 +970,9 @@
   <ItemGroup>
     <Content Include="Icons\LauncherIcon.ico" />
     <Content Include="Icons\Loki_FAIRY_TAIL_full_833717.ico" />
-    <None Include="Resources\84.png" />
-    <None Include="Resources\83.png" />
-    <None Include="Resources\82.png" />
-    <None Include="Resources\81.png" />
-    <None Include="Resources\80.png" />
-    <None Include="Resources\79.png" />
-    <None Include="Resources\78.png" />
-    <None Include="Resources\77.png" />
-    <None Include="Resources\76.png" />
-    <None Include="Resources\75.png" />
-    <None Include="Resources\74.png" />
-    <None Include="Resources\73.png" />
-    <None Include="Resources\201.png" />
-    <None Include="Resources\72.png" />
-    <None Include="Resources\71.png" />
-    <None Include="Resources\70.png" />
-    <None Include="Resources\69.png" />
-    <None Include="Resources\68.png" />
-    <None Include="Resources\67.png" />
-    <None Include="Resources\65.png" />
-    <None Include="Resources\64.png" />
-    <None Include="Resources\63.png" />
-    <None Include="Resources\62.png" />
-    <None Include="Resources\61.png" />
-    <None Include="Resources\60.png" />
-    <None Include="Resources\59.png" />
-    <None Include="Resources\58.png" />
-    <None Include="Resources\57.png" />
-    <None Include="Resources\56.png" />
-    <None Include="Resources\55.png" />
-    <None Include="Resources\54.png" />
-    <None Include="Resources\53.png" />
-    <None Include="Resources\52.png" />
-    <None Include="Resources\51.png" />
-    <None Include="Resources\50.png" />
-    <None Include="Resources\49.png" />
-    <None Include="Resources\48.png" />
-    <None Include="Resources\47.png" />
-    <None Include="Resources\46.png" />
-    <None Include="Resources\45.png" />
-    <None Include="Resources\44.png" />
-    <None Include="Resources\43.png" />
-    <None Include="Resources\42.png" />
-    <None Include="Resources\41.png" />
-    <None Include="Resources\40.png" />
-    <None Include="Resources\39.png" />
-    <None Include="Resources\38.png" />
-    <None Include="Resources\37.png" />
-    <None Include="Resources\36.png" />
-    <None Include="Resources\35.png" />
-    <None Include="Resources\34.png" />
-    <None Include="Resources\33.png" />
-    <None Include="Resources\32.png" />
-    <None Include="Resources\31.png" />
-    <None Include="Resources\30.png" />
-    <None Include="Resources\29.png" />
-    <None Include="Resources\28.png" />
-    <None Include="Resources\27.png" />
-    <None Include="Resources\26.png" />
-    <None Include="Resources\25.png" />
-    <None Include="Resources\24.png" />
-    <None Include="Resources\23.png" />
-    <None Include="Resources\22.png" />
-    <None Include="Resources\21.png" />
-    <None Include="Resources\20.png" />
-    <None Include="Resources\19.png" />
-    <None Include="Resources\18.png" />
-    <None Include="Resources\17.png" />
-    <None Include="Resources\16.png" />
-    <None Include="Resources\15.png" />
-    <None Include="Resources\14.png" />
-    <None Include="Resources\13.png" />
     <None Include="Resources\4d5fae7c4e25c90276bbddb5196cee1d.jpg" />
     <None Include="Resources\GOLD.png" />
     <None Include="Resources\fc756b27f7601142b1a494ad99a97dd3.jpg" />
-    <None Include="Resources\ID 1.png" />
-    <None Include="Resources\ID 2.png" />
-    <None Include="Resources\ID 3.png" />
-    <None Include="Resources\ID 4.png" />
-    <None Include="Resources\ID 5.png" />
-    <None Include="Resources\ID 6.png" />
-    <None Include="Resources\ID 7.png" />
-    <None Include="Resources\ID 8.png" />
-    <None Include="Resources\ID 9.png" />
-    <None Include="Resources\ID 10.png" />
-    <None Include="Resources\ID 11.png" />
-    <None Include="Resources\ID 12.png" />
     <Content Include="Icons\V3PSkdh.ico" />
     <None Include="Resources\699c22fa9a2f41fb9129edcf5eac0923.png" />
     <None Include="Resources\Rep30.png" />
