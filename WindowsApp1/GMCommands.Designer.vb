@@ -393,7 +393,7 @@ Partial Class GMCommands
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Image = Global.WindowsApp1.My.Resources.Resources._699c22fa9a2f41fb9129edcf5eac0923
+        Me.PictureBox1.Image = Global.WindowsApp1.My.Resources.Resources._777893cd2c188ce3d96973916deb4f9f
         Me.PictureBox1.InitialImage = CType(resources.GetObject("PictureBox1.InitialImage"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(537, 111)
         Me.PictureBox1.Name = "PictureBox1"
@@ -442,7 +442,6 @@ Partial Class GMCommands
         Me.MephTabcontrol1.Controls.Add(Me.TabPage3)
         Me.MephTabcontrol1.Controls.Add(Me.TabPage4)
         Me.MephTabcontrol1.Controls.Add(Me.TabPage5)
-        Me.MephTabcontrol1.Enabled = False
         Me.MephTabcontrol1.ItemSize = New System.Drawing.Size(35, 85)
         Me.MephTabcontrol1.Location = New System.Drawing.Point(12, 69)
         Me.MephTabcontrol1.Multiline = True
