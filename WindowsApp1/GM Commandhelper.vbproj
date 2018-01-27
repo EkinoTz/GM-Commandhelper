@@ -811,6 +811,9 @@
     <EmbeddedResource Include="CommandVB\GameMaster\Ban.resx">
       <DependentUpon>Ban.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CommandVB\GameMaster\Zoom.resx">
+      <DependentUpon>Zoom.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CommandVB\Player\Bank.resx">
       <DependentUpon>Bank.vb</DependentUpon>
     </EmbeddedResource>
