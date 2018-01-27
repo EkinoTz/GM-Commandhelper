@@ -22,10 +22,11 @@ Partial Class Form1
     'Das Bearbeiten mit dem Code-Editor ist nicht möglich.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.ThirteenForm1 = New NosLegion_Workspace.ThirteenForm()
+        Me.ThirteenButton2 = New NosLegion_Workspace.ThirteenButton()
         Me.ThirteenButton1 = New NosLegion_Workspace.ThirteenButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.ThirteenButton2 = New NosLegion_Workspace.ThirteenButton()
         Me.ThirteenForm1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -45,6 +46,20 @@ Partial Class Form1
         Me.ThirteenForm1.Size = New System.Drawing.Size(699, 704)
         Me.ThirteenForm1.TabIndex = 0
         Me.ThirteenForm1.Text = "Workspace NosLegion"
+        '
+        'ThirteenButton2
+        '
+        Me.ThirteenButton2.AccentColor = System.Drawing.Color.DodgerBlue
+        Me.ThirteenButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.ThirteenButton2.ColorScheme = NosLegion_Workspace.ThirteenButton.ColorSchemes.Dark
+        Me.ThirteenButton2.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!)
+        Me.ThirteenButton2.ForeColor = System.Drawing.Color.White
+        Me.ThirteenButton2.Location = New System.Drawing.Point(646, 3)
+        Me.ThirteenButton2.Name = "ThirteenButton2"
+        Me.ThirteenButton2.Size = New System.Drawing.Size(22, 23)
+        Me.ThirteenButton2.TabIndex = 2
+        Me.ThirteenButton2.Text = "-"
+        Me.ThirteenButton2.UseVisualStyleBackColor = False
         '
         'ThirteenButton1
         '
@@ -67,20 +82,6 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(693, 667)
         Me.Panel1.TabIndex = 0
         '
-        'ThirteenButton2
-        '
-        Me.ThirteenButton2.AccentColor = System.Drawing.Color.DodgerBlue
-        Me.ThirteenButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.ThirteenButton2.ColorScheme = NosLegion_Workspace.ThirteenButton.ColorSchemes.Dark
-        Me.ThirteenButton2.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!)
-        Me.ThirteenButton2.ForeColor = System.Drawing.Color.White
-        Me.ThirteenButton2.Location = New System.Drawing.Point(646, 3)
-        Me.ThirteenButton2.Name = "ThirteenButton2"
-        Me.ThirteenButton2.Size = New System.Drawing.Size(22, 23)
-        Me.ThirteenButton2.TabIndex = 2
-        Me.ThirteenButton2.Text = "-"
-        Me.ThirteenButton2.UseVisualStyleBackColor = False
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -88,6 +89,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(699, 704)
         Me.Controls.Add(Me.ThirteenForm1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ThirteenForm1.ResumeLayout(False)
