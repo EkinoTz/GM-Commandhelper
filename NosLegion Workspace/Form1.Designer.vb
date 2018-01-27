@@ -27,6 +27,7 @@ Partial Class Form1
         Me.ThirteenButton2 = New NosLegion_Workspace.ThirteenButton()
         Me.ThirteenButton1 = New NosLegion_Workspace.ThirteenButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.ThirteenForm1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -35,6 +36,7 @@ Partial Class Form1
         Me.ThirteenForm1.AccentColor = System.Drawing.Color.DodgerBlue
         Me.ThirteenForm1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.ThirteenForm1.ColorScheme = NosLegion_Workspace.ThirteenForm.ColorSchemes.Dark
+        Me.ThirteenForm1.Controls.Add(Me.Label1)
         Me.ThirteenForm1.Controls.Add(Me.ThirteenButton2)
         Me.ThirteenForm1.Controls.Add(Me.ThirteenButton1)
         Me.ThirteenForm1.Controls.Add(Me.Panel1)
@@ -82,6 +84,16 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(693, 667)
         Me.Panel1.TabIndex = 0
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.ForeColor = System.Drawing.Color.Gray
+        Me.Label1.Location = New System.Drawing.Point(490, 6)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(150, 17)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Made by Loki and Hunter"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -93,6 +105,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ThirteenForm1.ResumeLayout(False)
+        Me.ThirteenForm1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -101,4 +114,5 @@ Partial Class Form1
     Friend WithEvents Panel1 As Panel
     Friend WithEvents ThirteenButton1 As ThirteenButton
     Friend WithEvents ThirteenButton2 As ThirteenButton
+    Friend WithEvents Label1 As Label
 End Class
