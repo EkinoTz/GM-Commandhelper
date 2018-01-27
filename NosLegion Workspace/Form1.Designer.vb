@@ -25,6 +25,7 @@ Partial Class Form1
         Me.ThirteenForm1 = New NosLegion_Workspace.ThirteenForm()
         Me.ThirteenButton1 = New NosLegion_Workspace.ThirteenButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ThirteenButton2 = New NosLegion_Workspace.ThirteenButton()
         Me.ThirteenForm1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -33,6 +34,7 @@ Partial Class Form1
         Me.ThirteenForm1.AccentColor = System.Drawing.Color.DodgerBlue
         Me.ThirteenForm1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.ThirteenForm1.ColorScheme = NosLegion_Workspace.ThirteenForm.ColorSchemes.Dark
+        Me.ThirteenForm1.Controls.Add(Me.ThirteenButton2)
         Me.ThirteenForm1.Controls.Add(Me.ThirteenButton1)
         Me.ThirteenForm1.Controls.Add(Me.Panel1)
         Me.ThirteenForm1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -65,6 +67,20 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(693, 667)
         Me.Panel1.TabIndex = 0
         '
+        'ThirteenButton2
+        '
+        Me.ThirteenButton2.AccentColor = System.Drawing.Color.DodgerBlue
+        Me.ThirteenButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.ThirteenButton2.ColorScheme = NosLegion_Workspace.ThirteenButton.ColorSchemes.Dark
+        Me.ThirteenButton2.Font = New System.Drawing.Font("Segoe UI Semilight", 9.75!)
+        Me.ThirteenButton2.ForeColor = System.Drawing.Color.White
+        Me.ThirteenButton2.Location = New System.Drawing.Point(646, 3)
+        Me.ThirteenButton2.Name = "ThirteenButton2"
+        Me.ThirteenButton2.Size = New System.Drawing.Size(22, 23)
+        Me.ThirteenButton2.TabIndex = 2
+        Me.ThirteenButton2.Text = "-"
+        Me.ThirteenButton2.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -82,4 +98,5 @@ Partial Class Form1
     Friend WithEvents ThirteenForm1 As ThirteenForm
     Friend WithEvents Panel1 As Panel
     Friend WithEvents ThirteenButton1 As ThirteenButton
+    Friend WithEvents ThirteenButton2 As ThirteenButton
 End Class
