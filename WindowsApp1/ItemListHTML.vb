@@ -11,7 +11,7 @@ Public Class ItemListHTML
         Dim settings As New CefSettings()
         CefSharp.Cef.Initialize(settings)
 
-        Browser = New ChromiumWebBrowser("http://213.202.218.213/item.html") With
+        Browser = New ChromiumWebBrowser("file:///C:/Users/Randy/Desktop/ItemWeb/item.html") With
             {
                 .Dock = DockStyle.Fill
             }
@@ -32,4 +32,7 @@ Public Class ItemListHTML
 
     End Sub
 
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
 End Class

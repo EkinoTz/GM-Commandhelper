@@ -23,9 +23,9 @@ Partial Class ItemListHTML
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.MephTheme1 = New WindowsApp1.MephTheme()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.MephButton1 = New WindowsApp1.MephButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.MephTheme1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -42,9 +42,21 @@ Partial Class ItemListHTML
         Me.MephTheme1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.MephTheme1.Location = New System.Drawing.Point(0, 0)
         Me.MephTheme1.Name = "MephTheme1"
-        Me.MephTheme1.Size = New System.Drawing.Size(1106, 865)
+        Me.MephTheme1.Size = New System.Drawing.Size(1106, 1023)
         Me.MephTheme1.SubHeader = ""
         Me.MephTheme1.TabIndex = 0
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Bebas", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.SandyBrown
+        Me.Label1.Location = New System.Drawing.Point(3, 3)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(207, 25)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "NosLegion     item     Picker"
         '
         'MephButton1
         '
@@ -63,20 +75,8 @@ Partial Class ItemListHTML
         Me.Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Panel1.Location = New System.Drawing.Point(0, 31)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1106, 834)
+        Me.Panel1.Size = New System.Drawing.Size(1106, 989)
         Me.Panel1.TabIndex = 41
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Bebas", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.SandyBrown
-        Me.Label1.Location = New System.Drawing.Point(3, 3)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(207, 25)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "NosLegion     item     Picker"
         '
         'PictureBox2
         '
@@ -95,7 +95,7 @@ Partial Class ItemListHTML
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1106, 865)
+        Me.ClientSize = New System.Drawing.Size(1106, 1023)
         Me.Controls.Add(Me.MephTheme1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "ItemListHTML"
