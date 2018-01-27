@@ -22,7 +22,7 @@ Public Class Form1
         Close()
     End Sub
 
-    Private Sub ThirteenButton2_Click(sender As Object, e As EventArgs) Handles ThirteenButton2.Click
+    Private Sub ThirteenButton2_Click(sender As Object, e As EventArgs)
         Me.WindowState = FormWindowState.Minimized
     End Sub
 End Class
