@@ -7,7 +7,7 @@
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
         Label1.Text = "INIT"
         Label2.Text = "LOLOLO"
-        Label3.Text = ""
+        Label3.Text = "Retard"
 
     End Sub
 End Class
